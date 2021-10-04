@@ -1,0 +1,167 @@
+#fixed-header {
+    @include position(absolute, 0, 0, auto, 0); // fixed nav
+    @include size(100%, auto); // fixed nav
+    max-width: 1600px; // fixed nav
+    margin: auto; // fixed nav   
+};
+
+
+.page-header {
+    z-index: 10; // above page content
+    background-color: $color-basic-light;
+    @include flexbox(row, nowrap, space-between, center);
+    @include position(fixed, 0, 0, auto, 0); // fixed nav
+    @include size(100%, auto);
+    max-width: 1600px;
+    margin: auto;
+    border-bottom: solid 1px $color-tertiary;
+
+    // cv and legal pages
+
+    &__left {
+        @include flexbox(row, nowrap, space-between, center);
+    };
+
+    &__right {
+        @include flexbox(row, nowrap, space-between, center);
+        margin: 0 20px 0 0;
+
+        @include sm{
+            margin: 0 50px 0 0;
+        };
+        
+        &__home-link {
+            text-transform: uppercase;
+            @include flexbox(row, nowrap, center, center);
+            @include hover-transition;
+
+            &:hover {
+                color: $color-secondary-dark;
+                @include underline(2px, 5px);
+            };
+        };
+    }; 
+};
+
+
+#logo {
+    @include flexbox(row, nowrap, center, center);
+    @include size(60px);
+    margin: 20px;
+
+    img {
+        @include size(auto, 100%);
+    };
+};
+
+
+#navbar {
+    @include flexbox(row, nowrap, flex-end, center);
+    @include size(100%, auto);
+    text-transform: uppercase;
+
+    .nav-mobile {
+        @include flexbox(column, nowrap, center, flex-end);
+        @include position(relative, auto, auto, auto, auto);
+        @include size(100%, auto);
+
+        @include md {
+            display: none;
+        };
+
+        &__burger {
+            @include flexbox(row, nowrap, center, center);
+            margin: 20px;
+            @include hover-transition;
+
+            i {
+                font-size: 1.9rem;
+            };
+
+            &:hover {
+                color: $color-secondary-dark;
+            };
+        };
+
+        .active-burger {
+            color: $color-secondary-dark;
+        };
+
+        &__links {
+            background-color: $color-basic-light;
+            @include flexbox(column, nowrap, center, flex-end);
+            @include position(absolute, 70px, 0, auto, auto);
+            @include size(250px, auto);
+            border: solid 1px $color-basic-dark;
+            display: none; // after flexbox mixin to change from flex display
+        };
+
+        &__section-link {
+            font-size: 1.2rem;
+            @include color-bg-txt(mobile-nav);
+            @include flexbox(column, nowrap, center, center);
+            @include size(100%, auto);
+            padding: 15px 3px 15px 3px;
+            @include hover-transition;
+
+            &:hover {
+                background-color: $color-basic-medium;
+                color: $color-secondary-dark;
+                @include underline(2px, 5px);
+            };
+        };
+
+        .active-link {
+            color: $color-secondary-dark;
+            @include hover-transition;
+        };
+    };
+
+    .nav-desktop {
+        @include flexbox(row, nowrap, flex-end, center);
+        @include size(75%, auto);
+        margin: 20px;
+        display: none; // after flexbox mixin to change from flex display
+
+        @include md {
+            display: flex;
+        };
+
+        &__section-link {
+            font-size: 1.2rem;
+            @include flexbox(row, nowrap, center, center);
+            @include size(25%, auto);
+            @include hover-transition;
+
+            &:hover {
+                color: $color-secondary-dark;
+                @include underline(2px, 5px);
+            };
+        };
+
+        .active-link {                
+            color: $color-secondary-dark;
+            @include hover-transition;
+        };
+    };
+};
+
+
+.language {
+    @include flexbox(row, nowrap, center, center);
+    @include size(auto);
+    padding: 0 0 0 40px;
+
+    &__choice {
+        font-size: 1rem;
+        line-height: 1rem;
+        text-align: center;
+        @include size(20px, auto);
+        margin: 0 3px 0 3px;
+    };
+
+    &__active {
+        font-weight: 900;
+        @include underline(2px, 3px);
+    };
+};

@@ -1,0 +1,182 @@
+#cv-header {
+    @include flexbox(row, nowrap, space-between, center);
+    @include size(100%, 60px);
+    max-width: 1180px;
+    margin: auto;
+};
+
+
+#cv {
+    font-size: map-get($map: $font-size, $key: cv);
+    @include flexbox(column, nowrap, space-around, flex-start);
+    @include size(100%, auto);
+    max-width: 1200px;
+    margin: auto;
+    padding: 0px 20px 20px 20px;
+
+    @include lg {
+        @include flexbox(row, nowrap, space-around, flex-start);
+    };
+
+    h1 {
+        @include size(100%, auto);
+        text-align: center;
+    };
+
+    .h1-name {
+        font-size: map-get($map: $font-size, $key: cv-h1);
+        line-height: map-get($map: $font-size, $key: cv-h1-line-height);
+        font-weight: 700;
+        padding: 150px 20px 0 20px;
+    };
+
+    .job-title {
+        font-size: map-get($map: $font-size, $key: cv-job-title);
+        line-height: map-get($map: $font-size, $key: cv-job-title-line-height);
+        padding: 50px 20px 80px 20px;
+    };
+};
+
+
+#left {
+    background-color: $color-basic-medium;
+    @include size(100%, 100%);
+    margin: auto;
+    margin-top: 0;
+    padding: 20px 20px 0 20px;
+    max-width: 700px;
+
+    @include lg {
+        @include size(37%, auto);
+    };
+
+    .category {
+        padding: 15px 0 10px 0;
+    };
+};
+
+
+#right {
+    @include size(100%, auto);
+    max-width: 700px;
+    margin: auto;
+    padding: 0 20px 0 20px;
+
+    @include lg {
+        @include size(58%, auto);
+    };
+};
+
+
+.category {
+    padding: 10px 0 10px 0;
+
+    &__title {
+        font-style: italic;
+        font-size: map-get($map: $font-size, $key: cv-h2); // override browser style
+        text-transform: uppercase;
+        @include flexbox(row, wrap, flex-start, center);
+        color: $color-primary-dark;
+        padding: 0 0 3px 0;
+    };
+
+    .divider {
+        background-color: $color-primary-dark;
+        @include size(100%, 1px);
+        margin: 0 0 8px 0;
+    };
+
+
+    &__item {
+        @include flexbox(column, wrap, space-around, flex-start);
+        padding: 0 0 10px 0;
+
+        @include lg {
+            @include flexbox(row, wrap, flex-start, flex-start);
+        };
+
+        &__year {
+            font-style: italic;
+            @include size(100%, auto);
+            padding: 0 0 3px 0;
+
+            @include lg {
+                @include size(100px, auto);
+            };
+        };
+
+        &__description {
+            @include size(100%, auto);
+
+            @include lg {
+                @include size(calc(100% - 100px), auto);
+            };
+        };
+
+        ul {
+            padding: 0 0 0 40px;
+
+            @include lg {
+                padding: 0 0 0 140px;
+            };
+        };
+    };
+
+    &__contact {
+        @include flexbox(column, wrap, space-around, flex-start);
+        padding: 10px 0 10px 0;
+        @include hover-transition;
+
+        @include sm {
+            @include flexbox(row, wrap, flex-start, center);
+        };
+
+        &__icon {
+            @include flexbox(row, wrap, center, center);
+            padding: 0 20px 0 10px;
+            @include size(100%, auto);
+
+            @include sm {
+                @include size(30px, auto);
+            };
+
+            i {
+                font-size: map-get($map: $font-size, $key: cv-icon);
+            };
+        };
+
+        &__link {
+            @include flexbox(row, wrap, center, center);
+            @include size(100%, auto);
+
+            @include sm {
+                @include flexbox(row, wrap, flex-start, center);
+                @include size(calc(100% - 30px), auto);
+            };
+        };
+    };
+
+    .subcategory {
+        padding: 0 0 5px 0;
+
+        &__title {
+            font-size: map-get($map: $font-size, $key: cv-h3); // override browser style
+            font-weight: 400; // override browser style
+            text-transform: uppercase;
+            color: $color-secondary-dark;
+            padding: 0 0 3px 0;
+        };
+
+        &__description {
+            padding: 0 0 5px 0;
+        };
+    };
+
+    .hover {
+        @include hover-transition;
+
+        &:hover {
+            color: $color-secondary-dark;
+        };
+    };
+};

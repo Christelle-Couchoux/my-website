@@ -1,0 +1,31 @@
+// reset margin and padding
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+};
+
+
+// define minimum/maximum width
+.content {
+    @include position(relative, auto, auto, auto, auto); // fixed navs and buttons
+    min-width: 320px;
+    max-width: 1600px;
+    margin: auto;
+};
+
+
+i {
+    display: inline-block;
+};
+
+
+span {
+    display: inline-block;
+};
+
+
+// background
+.bg {
+    background-color: $color-basic-light;
+};

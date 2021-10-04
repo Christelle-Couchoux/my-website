@@ -1,0 +1,58 @@
+#home {
+    text-align: center;
+    background-image: url('../../images/background.jpeg');
+    @include flexbox(column, nowrap, center, center);
+    max-width: 1600px;
+    margin: auto;
+    padding: 150px 0 50px 0;
+
+    @include sm {
+        padding: 200px 50px 100px 50px;
+    };
+
+    .home-txt {
+        background-color: $color-basic-light;
+        padding: 20px 20px 20px 20px;
+
+        @include sm {
+            padding: 20px 50px 20px 50px;
+        };
+
+        @include md {
+            padding: 50px 100px 50px 100px;
+        };
+        
+    };
+
+    .hello {
+        @include font-size-hello;
+    };
+
+    h1 {
+        @include font-size-h1;
+        @include size(100%, auto);
+        
+        @include sm {
+            margin: 0 0 20px 0;
+        };
+    };
+
+    .view-projects {
+        @include size(100%, auto);
+        margin: 30px 0 0 0;
+
+        p {
+            @include font-size-view-projects;
+            @include size(fit-content, auto);
+            margin: auto;
+            border: solid 1px $color-tertiary;
+            @include hover-transition;
+
+            &:hover {
+                color: $color-secondary-dark;
+                @include underline(1px, 8px);
+                border: solid 1px $color-secondary-dark;
+            };
+        };
+    };
+};

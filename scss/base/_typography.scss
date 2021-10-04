@@ -1,0 +1,17 @@
+// basic colors
+// font less bold in Firefox
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-family: $lato;
+	@include links-style(map-get($color-txt, basic));
+    @include font-size-txt;
+    @include color-bg-txt(basic);
+};
+
+@-moz-document url-prefix() {
+    body {
+        font-weight: lighter !important;
+    };
+};

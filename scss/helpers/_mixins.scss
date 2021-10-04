@@ -1,0 +1,235 @@
+// breaking points
+
+@mixin sm {
+    @media all and (min-width: 576px) {
+        @content;
+    };
+};
+
+@mixin md {
+    @media all and (min-width: 768px) {
+        @content;
+    };
+};
+
+@mixin lg {
+    @media all and (min-width: 992px) {
+        @content;
+    };
+};
+
+@mixin xl {
+    @media all and (min-width: 1200px) {
+        @content;
+    };
+};
+
+@mixin xxl {
+    @media all and (min-width: 1440px) {
+        @content;
+    };
+};
+
+
+// links
+@mixin links-style ($color:map-get($map: $color-txt, $key: basic)) {
+    a {
+        text-decoration: none;
+        color: $color;
+    };
+
+    a:visited, a[href^='mailto'] {
+        color: $color;
+    };
+};
+
+
+// lists
+@mixin list-style {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+};
+
+
+// background and text colors
+@mixin color-bg-txt($element) {
+    background-color: map-get($map: $color-bg, $key: $element);
+    color: map-get($map: $color-txt, $key: $element);
+};
+
+
+// underline
+@mixin underline($thickness, $offset) {
+    text-decoration: underline;
+    text-decoration-thickness: $thickness;
+    text-underline-offset: $offset;
+};
+
+
+// responsive font-size
+
+// hello
+@mixin font-size-hello {
+    font-size: map-get($map: $font-size, $key: hello-vsm);
+    line-height: map-get($map: $font-size, $key: hello-lh-vsm);
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: hello-sm);
+        line-height: map-get($map: $font-size, $key: hello-lh-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: hello-md);
+        line-height: map-get($map: $font-size, $key: hello-lh-md);
+    };
+};
+
+// h1
+@mixin font-size-h1 {
+    font-size: map-get($map: $font-size, $key: h1-vsm);
+    line-height: map-get($map: $font-size, $key: h1-lh-vsm);
+    font-weight: 400; // override browser style
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: h1-sm);
+        line-height: map-get($map: $font-size, $key: h1-lh-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: h1-md);
+        line-height: map-get($map: $font-size, $key: h1-lh-md);
+    };
+};
+
+// h2
+@mixin font-size-h2 {
+    font-size: map-get($map: $font-size, $key: h2-vsm);
+    font-weight: 400; // override browser style
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 0 20px 0;
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: h2-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: h2-md);
+        text-align: left;
+    };
+};
+
+// h3
+@mixin font-size-h3 {
+    font-size: map-get($map: $font-size, $key: h3-vsm);
+    font-weight: 400; // override browser style
+    text-align: center;
+    padding: 0 0 10px 0;
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: h3-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: h3-md);
+    };
+};
+
+// view projects
+@mixin font-size-view-projects {
+    font-size: map-get($map: $font-size, $key: view-projects-vsm);
+    padding: 10px;
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: view-projects-sm);
+        padding: 15px;
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: view-projects-md);
+        padding: 20px;
+    };
+};
+
+// txt
+@mixin font-size-txt {
+    font-size: map-get($map: $font-size, $key: txt-vsm);
+    line-height: map-get($map: $font-size, $key: line-height-vsm);
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: txt-sm);
+        line-height: map-get($map: $font-size, $key: line-height-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: txt-md);
+        line-height: map-get($map: $font-size, $key: line-height-md);
+    };
+};
+
+// project-title
+@mixin font-size-project-title {
+    font-size: map-get($map: $font-size, $key: project-title-vsm);
+    padding: 20px 0 20px;
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: project-title-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: project-title-md);
+    };
+};
+
+// link icon
+@mixin font-size-link-icon {
+    font-size: map-get($map: $font-size, $key: link-icon-vsm);
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: link-icon-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: link-icon-md);
+    };
+};
+
+// form field
+@mixin font-size-form-field {
+    font-size: map-get($map: $font-size, $key: form-field-vsm);
+
+    @include sm {
+        font-size: map-get($map: $font-size, $key: form-field-sm);
+    };
+
+    @include md {
+        font-size: map-get($map: $font-size, $key: form-field-md);
+    };
+};
+
+
+// container size
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+};
+
+
+// layout
+
+@mixin flexbox($direction, $wrap, $justify-content, $align-items) {
+    display: flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify-content;
+    align-items:$align-items;
+};
+
+@mixin position($position, $top, $right, $bottom, $left) {
+    position: $position;
+    top: $top;
+    right: $right;
+    bottom: $bottom;
+    left: $left;
+};

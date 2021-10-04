@@ -1,0 +1,47 @@
+section {
+    @include flexbox(column, nowrap, center, center);
+    @include size(100%, auto);
+    max-width: 1000px;
+    margin: auto;
+    padding: 120px 30px 0 30px;
+
+    @include sm {
+        padding: 120px 50px 20px 50px;
+    };
+
+    @include md {
+        padding: 120px 50px 50px 50px;
+    };
+};
+
+
+h2 {
+    @include font-size-h2;
+    @include flexbox(row, nowrap, center, center);
+    @include size(100%, auto);
+};
+
+
+.section-divider {
+    @include size(100%, 1px);
+    background-color: $color-primary-dark;
+    margin: auto;
+    margin-bottom: 30px;
+};
+
+
+.highlights {
+    display: inline; // span can break between words
+    color: map-get($map: $color-txt, $key: highlights);
+};
+
+
+.txt-link {
+    color: $color-tertiary;
+    margin-bottom: 10px;
+    @include hover-transition;
+
+    &:hover {
+        @include underline(1px, 3px);
+    };
+};

@@ -1,0 +1,59 @@
+#about {
+    .about-txt {
+        max-width: 780px;
+    };
+
+    p {
+        text-align: left;
+        @include size(100%, auto);
+        padding: 5px 0 0 0;
+
+        @include sm {
+            padding: 7px 0 0 0;
+        };
+
+        @include md {
+            padding: 10px 0 0 0;
+        };
+    };
+
+    .looking-for-job {
+        color: $color-tertiary;
+        padding: 10px 0 10px 0; // +20
+
+        @include sm {
+            padding: 15px 0 15px 0; // +30
+        };
+
+        @include md {
+            padding: 20px 0 20px 0; // +35
+        };
+    };
+
+    .technologies {
+        @include flexbox(row, nowrap, space-around, flex-start);
+        @include size(70%, auto);
+        max-width: 600px;
+        margin: auto;
+        padding: 0 0 10px 0;
+
+        &__list {
+            @include flexbox(column, nowrap, flex-start, center);
+            @include size(100%, auto);
+            padding: 5px 20px 5px 20px;
+
+            &__title {
+                text-transform: uppercase;
+                text-align: center;
+                @include underline(1px, 3px);
+                margin: 5px;
+            };
+        };
+
+        li {
+            text-align: left;
+            @include flexbox(row, nowrap, center, center);
+            @include size(100%, auto);
+        };
+    };
+};

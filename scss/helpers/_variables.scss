@@ -1,0 +1,93 @@
+// color palette
+
+// color variables
+$color-basic-light: hsl(120, 100%, 100%);
+$color-basic-dark: hsl(233, 6%, 15%);
+$color-basic-dark-transp: rgba(36, 36, 41, 0.8);
+$color-basic-medium: hsl(233, 6%, 93%); 
+$color-primary-dark: hsl(177, 56%, 33%);
+$color-primary-dark-transp: rgba(37, 131, 127, 0.7);
+$color-secondary-dark: hsl(330, 100%, 45%);
+$color-tertiary: hsl(40, 100%, 31%);
+
+
+// color maps
+
+// background
+$color-bg: (
+    basic: $color-basic-light,
+    btn-scroll: $color-primary-dark,
+);
+
+// text
+$color-txt: (
+    basic: $color-basic-dark,
+    btn-scroll: $color-basic-light,
+    highlights: $color-primary-dark,
+);
+
+
+
+// fonts
+
+// font family
+$lato: ('Lato', 'arial', 'sans-serif');
+
+// font size map
+$font-size: (
+    scroll-to-top: 1.3rem,
+
+    cv: 1.1rem,
+    cv-h1: 2rem,
+    cv-h1-line-height: 3rem,
+    cv-job-title: 1.5rem,
+    cv-job-title-line-height: 2.25rem,
+    cv-h2: 1.1rem,
+    cv-h3: 1.1rem,
+    cv-icon: 1.3rem,
+
+    txt-vsm: 1rem,
+    line-height-vsm: 1.5rem,
+    txt-sm: 1.1rem,
+    line-height-sm: 1.7rem,
+    txt-md: 1.2rem,
+    line-height-md: 1.85rem,
+
+    hello-vsm: 1.3rem,
+    hello-lh-vsm: 3rem,
+    hello-sm: 2rem,
+    hello-lh-sm: 4rem,
+    hello-md: 2.5rem,
+    hello-lh-md: 5rem,
+
+    h1-vsm: 1.2rem,
+    h1-lh-vsm: 1.5rem,
+    h1-sm: 1.4rem,
+    h1-lh-sm: 2.5rem,
+    h1-md: 1.6rem,
+    h1-lh-md: 2rem,
+
+    view-projects-vsm: 1rem,
+    view-projects-sm: 1.2rem,
+    view-projects-md: 1.4rem,
+
+    h2-vsm: 1.2rem,
+    h2-sm: 1.4rem,
+    h2-md: 1.6rem,
+
+    h3-vsm: 1.2rem,
+    h3-sm: 1.4rem,
+    h3-md: 1.6rem,
+
+    project-title-vsm: 1.1rem,
+    project-title-sm: 1.3rem,
+    project-title-md: 1.5rem,
+
+    link-icon-vsm: 1.1rem,
+    link-icon-sm: 1.3rem,
+    link-icon-md: 1.5rem,
+
+    form-field-vsm: 0.9rem,
+    form-field-sm: 1rem,
+    form-field-md: 1.1rem,
+);

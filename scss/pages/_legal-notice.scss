@@ -1,0 +1,35 @@
+.legal-content {
+    @include links-style(map-get($color-txt, cv));
+    @include color-bg-txt(cv);
+};
+
+.legal-pages {
+
+    h1 {
+        @include font-size-hello;
+        font-weight: 400;
+        text-align: center;
+        padding: 50px 0 50px 0;
+    };
+
+    h2 {
+        @include font-size-h2;
+        @include flexbox(row, nowrap, flex-start, center);
+        color: $color-primary-dark;
+        padding: 10px 0 10px 0;
+    };
+
+    p {
+        padding: 0 0 30px 0;
+    };
+
+    .legal-link {
+        font-weight: 700;
+        color: $color-basic-dark;
+        @include hover-transition;
+
+        &:hover {
+            @include underline(2px, 3px);
+        };
+    };
+};

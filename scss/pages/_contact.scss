@@ -1,0 +1,60 @@
+.contact-txt {
+    text-align: center;
+    padding: 20px 0 10px 0;
+
+    @include sm {
+        text-align: left;
+    };
+};
+
+
+.contact-form {
+    @include size(80%, auto);
+    max-width: 500px;
+    padding: 20px 0 0 0;
+
+    &__field {
+        font-family: $lato;
+        @include font-size-form-field;
+        color: $color-basic-dark;
+        background-color: $color-basic-medium;
+        margin: 0 0 7px 0;
+        padding: 10px;
+        border: none;
+    };
+
+    ::placeholder {
+        color: $color-basic-dark;
+    };
+
+    input {
+        @include size(100%, 40px);
+    };
+
+    textarea {
+        @include size(100%, 200px);
+    };
+
+    #submit {
+        @include size(100%, 40px);
+        font-family: $lato;
+        font-weight: 900;
+        font-size: 0.9rem;
+        text-transform: uppercase;
+        text-align: center;
+        background-color: $color-basic-light;
+        color: $color-primary-dark;
+        margin: 20px 0 20px 0;
+        border: solid 2px $color-primary-dark;
+        @include hover-transition;
+
+        @include sm {
+            font-size: 1.1rem;
+        };
+
+        &:hover {
+            background-color: $color-primary-dark;
+            color: $color-basic-light;
+        };
+    };
+};

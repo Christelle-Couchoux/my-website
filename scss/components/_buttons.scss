@@ -1,0 +1,52 @@
+// scroll-to-top button
+
+.fixed-scroll-to-top {
+    @include flexbox(row, nowrap, flex-end, center); // button align on the right
+    @include position(absolute, auto, 0, 0, 0); // fixed button
+    @include size(100%, auto); // fixed button
+    max-width: 1600px; // fixed button
+};
+
+#scroll-to-top {
+    display: none; // hidden by default
+    z-index: 99; // above everything
+    font-size: 1.3rem;
+    @include color-bg-txt(btn-scroll);
+    @include position(fixed, auto, auto, 20px, auto); // fixed button
+    @include size(40px);
+    margin: 0 20px 0 0; // fixed button
+    border-radius: 50%;
+    border: none;
+    @include hover-transition;
+
+    &:hover{
+        background-color: $color-secondary-dark;
+    };
+
+    .fas{
+        transform: scale(1,1.2);
+        padding: 3px 0 0 0;
+    };
+};
+
+
+// download CV
+.dl-cv {
+    @include flexbox(row, nowrap, flex-end, center);
+    @include size(100%, auto);
+    max-width: 1180px;
+    margin: auto;
+    padding: 120px 20px 10px 20px;
+
+    &__icon {
+        font-size: 1.8rem;
+        @include flexbox(row, nowrap, center, center);
+        @include size(50px);
+        margin: 0 50px 0 0;
+        @include hover-transition;
+
+        &:hover{
+            color: $color-primary-dark;
+        };
+    };
+};

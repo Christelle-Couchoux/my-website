@@ -1,0 +1,56 @@
+// show / hide with js
+/*
+js add class (=hide elements) at page loading
+and remove class when element scroll into view.
+if js fails content is displayed.
+*/
+.hidden-js {
+    opacity: 0;
+};
+
+
+// About and Contact sections
+// fade in, title get bigger, content go up
+// class added with js
+.fade-in-section {
+    h2, .section-divider {
+        animation: fade-in-bigger 500ms ease-in-out;
+    };
+
+    p, div, form {
+        animation: fade-in-up 500ms ease-in-out;
+    };
+};
+
+
+// Projects section
+
+// title
+// fade in and get bigger
+// class added with js
+.fade-in-title {
+    h2, .section-divider {
+        animation: fade-in-bigger 500ms ease-in-out;
+    };
+};
+
+
+// project
+// fade in and come from side
+// class added with js
+
+.fade-in-project.enter-right {
+    animation: fade-in-right 500ms ease-in-out;
+};
+
+.fade-in-project.enter-left {
+    animation: fade-in-left 500ms ease-in-out;
+};
+
+
+
+/*
+classes .hidden-section, .hidden-title, and .hidden-project
+are used to target elements with js and trigger the animations,
+they add no style
+*/
