@@ -22,8 +22,8 @@
     <meta name="description" content="Conditions générales d'utilisation pour le site www.christelle-couchoux.com">
     <link rel="canonical" href="https://www.christelle-couchoux.com/cgu/">
 
-    <link rel="icon" href="../favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="../css/prefixed/style.css"/>
+    <link rel="icon" href="./favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="./css/prefixed/style.css"/>
 
     <script src="https://kit.fontawesome.com/c508233717.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -31,8 +31,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
 
     <!-- js scripts -->
-    <script src="../js/scroll-to-top.js" defer></script>
-    <script src="../js/nav.js" defer></script>
+    <script src="./js/scroll-to-top.js" defer></script>
+    <script src="./js/nav.js" defer></script>
 
 </head>
 
@@ -43,12 +43,7 @@
             <div class="fixed-header>">
                 <header class="page-header">
                     <div class="page-header__left">
-                        <a href="../" title="Retour à l'accueil" aria-label="Retour à l'accueil">
-                            <div id="logo">
-                                <img src="../images/logo-turquoise-transp.png" alt="logo">
-                            </div>
-                        </a>
-                        <!-- translate cgu?
+                        <?php include_once('./includes/logo-home-fr.php'); ?>
                         <div class="language">
                             <div class="language__choice">
                                 <p class="language__active" title="Français">
@@ -56,25 +51,15 @@
                                 </p>
                             </div>
                             <div class="language__choice">
-                                <a href="">
-                                    <p title="English">
-                                        EN
-                                    </p>
-                                </a>
+                                <p title="English">
+                                    EN
+                                </p>
                             </div>
                         </div>
-                        -->
                     </div>
                     
-                    <div class="page-header__right">
-                        <a href="../index.html" title="Retour à la page principale">
-                            <p class="page-header__right__home-link">
-                                Accueil
-                            </p>
-                        </a>
-                    </div>
-                    
-                </header>
+                    <?php include_once('./includes/nav-home-fr.php'); ?>             
+                </header> 
             </div>
 
             <main>
@@ -186,46 +171,9 @@
 
             </main>
 
-            <footer>
-                <nav id="footer-links">
-                    <ul>
-                        <li>
-                            <a href="mailto:contact[at]christelle-couchoux.com" target="_blank" title="M'envoyer un email">
-                                <i class="fas fa-envelope" aria-label="Email" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Christelle-Couchoux" target="_blank" title="Voir mon profil GitHub">
-                                <i class="fab fa-github" aria-label="GitHub" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/christelle-couchoux/" target="_blank" title="Voir ma page LinkedIn">
-                                <i class="fab fa-linkedin" aria-label="LinkedIn" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./cv.html" target="_blank" title="Voir mon CV">
-                                <span class="cv-icon">
-                                    CV
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <?php include_once('./includes/footer-fr.php'); ?>
 
-                <p id="legal">
-                    <span class="copyright">&copy; 2021 Christelle Couchoux</span>
-                    <a href="./mentions-legales.html"><span class="legal-link">Mentions légales</span></a>
-                    <a href="./cgu.html"><span class="legal-link">CGU</span></a>
-                </p>
-            </footer>
-
-            <div class="fixed-scroll-to-top">
-                <button id="scroll-to-top">
-                    <i class="fas fa-chevron-up" aria-label="Retour en haut de la page" role="img"></i>
-                </button>
-            </div>
+            <?php include_once('./includes/scroll-to-top-btn.php'); ?>
 
         </div>
     </div>

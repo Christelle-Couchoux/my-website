@@ -57,7 +57,7 @@
                             </p>
                         </div>
                         <div class="language__choice">
-                            <a href="./en/home.html">
+                            <a href="./en/home.php">
                                 <p title="English">
                                     EN
                                 </p>
@@ -160,11 +160,12 @@
                                 <li>MongoDB</li>
                                 <li>MySQL</li>
                                 <li>Sequelize</li>
+                                <li>PHP</li>
                             </ul>
                         </div>
                         <p>
                             Pour <span class="highlights">plus d'infos</span> sur mes compétences et mon expérience, 
-                            vous pouvez consulter <a href="./fr/cv.html" target="_blank"><span class="txt-link">mon CV</span></a>.
+                            vous pouvez consulter <a href="./cv.php"><span class="txt-link">mon CV</span></a>.
                         </p>
                     </div>
 
@@ -650,14 +651,14 @@
                                     <a href="https://github.com/Christelle-Couchoux/my-website" target="_blank" title="Code">
                                         <i class="fab fa-github" aria-label="GitHub" role="img"></i>
                                     </a>
-                                    <a href="./index.html" target="_blank" title="Site">
+                                    <a href="./index.php" target="_blank" title="Site">
                                         <i class="fas fa-external-link-alt" aria-label="Lien" role="img"></i>
                                     </a>
                                 </div>
                             </div>
                             
                             <div class="one-project__image">
-                                <a href="./index.html" target="_blank" title="Aller au site portfolio">
+                                <a href="./index.php" target="_blank" title="Aller au site portfolio">
                                     <div class="one-project__image__photo">
                                         <img src="./images/projects/portfolio.png" alt="Portfolio">
                                     </div>
@@ -719,6 +720,14 @@
                                                 </g>
                                             </svg>
                                         </li>
+                                        <li title="PHP" class="sass" aria-label="PHP">
+                                            <svg class="tech-icon" viewBox="0 0 256 134" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
+                                                <g fill-rule="evenodd">
+                                                    <ellipse class="tech-icon__bg" cx="128" cy="66.63" rx="128" ry="66.63"/>
+                                                    <path class="tech-icon__txt" d="M35.945 106.082l14.028-71.014H82.41c14.027.877 21.041 7.89 21.041 20.165 0 21.041-16.657 33.315-31.562 32.438H56.11l-3.507 18.411H35.945zm23.671-31.561L64 48.219h11.397c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.52zM100.192 87.671l14.027-71.013h16.658l-3.507 18.41h15.78c14.028.877 19.288 7.89 17.535 16.658l-6.137 35.945h-17.534l6.137-32.438c.876-4.384.876-7.014-5.26-7.014H124.74l-7.89 39.452h-16.658zM153.425 106.082l14.027-71.014h32.438c14.028.877 21.042 7.89 21.042 20.165 0 21.041-16.658 33.315-31.562 32.438h-15.781l-3.507 18.411h-16.657zm23.67-31.561l4.384-26.302h11.398c6.137 0 10.52 2.63 10.52 7.89-.876 14.905-7.89 17.535-15.78 18.412h-10.521z"/>
+                                                </g>
+                                            </svg>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -732,14 +741,12 @@
                     <div class="section-divider"></div>
 
                     <p class="contact-txt">
-                        Vous pouvez envoyer un email à <a href="mailto:contact[at]christelle-couchoux.com"><span class="txt-link">contact[at]christelle-couchoux.com</span></a>.<br>
-                        Ou utiliser le formulaire ci-dessous.
+                        Vous pouvez me contacter en remplissant le formulaire ci-dessous.
                     </p>
 
-                    <!-- learn PHP, change to PHP -->
-                    <form action="mailto:contact[at]christelle-couchoux.com" method="POST" enctype="multipart/form-data" class="contact-form">
+                    <form action="./contact.php" method="POST" class="contact-form">
                         <input placeholder="Nom" type="text" name="name" required class="contact-form__field">
-                        <input placeholder="Email" type="text" name="name" required class="contact-form__field">
+                        <input placeholder="Email" type="text" name="email" required class="contact-form__field">
                         <textarea placeholder="Message" name="message" required class="contact-form__field"></textarea>
                         <button id="submit">Envoyer</button>
                     </form>
@@ -748,46 +755,9 @@
 
             </main>
 
-            <footer>
-                <nav id="footer-links">
-                    <ul>
-                        <li>
-                            <a href="mailto:contact[at]christelle-couchoux.com" target="_blank" title="M'envoyer un email">
-                                <i class="fas fa-envelope" aria-label="Email" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Christelle-Couchoux" target="_blank" title="Voir mon profil GitHub">
-                                <i class="fab fa-github" aria-label="GitHub" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/christelle-couchoux/" target="_blank" title="Voir ma page LinkedIn">
-                                <i class="fab fa-linkedin" aria-label="LinkedIn" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./fr/cv.html" target="_blank" title="Voir mon CV">
-                                <span class="cv-icon">
-                                    CV
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <?php include_once('./includes/footer-fr.php'); ?>
 
-                <p id="legal">
-                    <span class="copyright">&copy; 2021 Christelle Couchoux</span>
-                    <a href="./fr/mentions-legales.html"><span class="legal-link">Mentions légales</span></a>
-                    <a href="./fr/cgu.html"><span class="legal-link">CGU</span></a>
-                </p>
-            </footer>
-
-            <div class="fixed-scroll-to-top">
-                <button id="scroll-to-top">
-                    <i class="fas fa-chevron-up" aria-label="Retour en haut de la page" role="img"></i>
-                </button>
-            </div>
+            <?php include_once('./includes/scroll-to-top-btn.php'); ?>
 
         </div>
     </div>

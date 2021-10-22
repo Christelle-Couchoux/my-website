@@ -108,6 +108,11 @@
                 background-color: $color-basic-medium;
                 color: $color-secondary-dark;
                 @include underline(2px, 5px);
+
+                // for header not on homepage
+                a {
+                    color: $color-secondary-dark;
+                };
             };
         };
 
@@ -136,6 +141,11 @@
             &:hover {
                 color: $color-secondary-dark;
                 @include underline(2px, 5px);
+                
+                // for header not on homepage
+                a {
+                    color: $color-secondary-dark;
+                };
             };
         };
 

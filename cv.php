@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
 
@@ -17,14 +17,14 @@
         gtag('config', 'G-MD1BZFV4Q7');
     </script>
 
-    <title>Resume - Christelle Couchoux</title>
-    <meta name="title" content="Resume - Christelle Couchoux">
-    <meta name="description" content="Resume of Christelle Couchoux, Full Stack Web Developer.
-    On this page you can view my resume and download it as a .pdf">
-    <link rel=”canonical” href="https://www.christelle-couchoux.com/fr/cv"/>
+    <title>CV - Christelle Couchoux</title>
+    <meta name="title" content="CV - Christelle Couchoux">
+    <meta name="description" content="CV de Christelle Couchoux, Développeuse Web Full-Stack. 
+    Sur cette page vous pouvez consulter mon CV et le télécharger au format .pdf">
+    <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/resume"/>
 
-    <link rel="icon" href="../favicon.ico"/>
-    <link rel="stylesheet" type="text/css" href="../css/prefixed/style.css"/>
+    <link rel="icon" href="./favicon.ico"/>
+    <link rel="stylesheet" type="text/css" href="./css/prefixed/style.css"/>
 
     <script src="https://kit.fontawesome.com/c508233717.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,8 +32,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400&display=swap" rel="stylesheet">
 
     <!-- js scripts -->
-    <script src="../js/scroll-to-top.js" defer></script>
-    <script src="../js/nav.js" defer></script>
+    <script src="./js/scroll-to-top.js" defer></script>
+    <script src="./js/nav.js" defer></script>
 
 </head>
 
@@ -43,33 +43,24 @@
             <div class="fixed-header>">
                 <header class="page-header">
                     <div class="page-header__left">
-                        <a href="./home" title="Back to homepage" aria-label="Back to homepage">
-                            <div id="logo">
-                                <img src="../images/logo-turquoise-transp.png" alt="logo">
-                            </div>
-                        </a>
+                        <?php include_once('./includes/logo-home-fr.php'); ?> 
                         <div class="language">
                             <div class="language__choice">
-                                <a href="../fr/cv.html">
-                                    <p title="Français">
-                                        FR
+                                <p class="language__active" title="Français">
+                                    FR
+                                </p>
+                            </div>
+                            <div class="language__choice">
+                                <a href="./en/resume.php">
+                                    <p title="English">
+                                        EN
                                     </p>
                                 </a>
                             </div>
-                            <div class="language__choice">
-                                <p class="language__active" title="English">
-                                    EN
-                                </p>
-                            </div>
                         </div>
                     </div>
-                    <div class="page-header__right">
-                        <a href="./home.html" title="Retour à la page principale">
-                            <p class="page-header__right__home-link">
-                                Home
-                            </p>
-                        </a>
-                    </div>
+                    
+                    <?php include_once('./includes/nav-home-fr.php'); ?> 
                             
                 </header>
             </div>
@@ -77,67 +68,66 @@
             <main>
 
                 <div class="dl-cv">
-                    <a href="../docs/CV-Christelle-Couchoux-en.pdf" target="_blank" title="Download the resume">
+                    <a href="./docs/CV-Christelle-Couchoux-fr.pdf" target="_blank" title="Télécharger le CV">
                         <span class="dl-cv__icon">
-                            <i class="fas fa-file-download" aria-label="Download the resume" role="img"></i>
+                            <i class="fas fa-file-download" aria-label="Télécharger le CV" role="img"></i>
                         </span>
                     </a>
                 </div>
 
                 <section id="cv">
                     <div id="left">
-
+    
                         <h1>
                             <span class="h1-name">Christelle COUCHOUX</span>
-                            <span class="job-title">Full Stack Web Developer</span>
+                            <span class="job-title">Développeuse Web Full-Stack</span>
                         </h1>
                         <div>
                             <div class="category">
-                                <h2 class="category__title">Profile</h2>
+                                <h2 class="category__title">Profil</h2>
                                 <div class="divider"></div>
                                 <p class="category__content">
-                                    Former research associate in Evolutionary Biology and Behavioral Ecology, 
-                                    now working in web development.<br>
-                                    <strong>Looking for a junior web developer position.</strong>
+                                    Ancienne associée de recherche en Biologie Évolutive et Écologie Comportementale, 
+                                    reconvertie dans le développement web.<br>
+                                    <strong>À la recherche d’un poste de développeuse web junior.</strong>
                                 </p>
                             </div>
     
                             <div class="category">
-                                <h2 class="category__title">Languages</h2>
+                                <h2 class="category__title">Langues</h2>
                                 <div class="divider"></div>
                                 <p class="category__content">
-                                    <strong>French</strong> (maternal)<br>
-                                    <strong>English</strong> (fluent)<br>
-                                    Spanish (A2)<br>
+                                    <strong>Anglais</strong> (bilingue)<br>
+                                    Espagnol (A2)<br>
                                 </p>
                             </div>
     
                             <div class="category">
-                                <h2 class="category__title">Soft skills</h2>
+                                <h2 class="category__title">Compétences personnelles</h2>
                                 <div class="divider"></div>
                                 <p class="category__content">
-                                    Problem-solving<br>
-                                    Logic<br>
-                                    Rigor<br>
-                                    Attention to detail<br>
-                                    Teamwork<br>
-                                    Autonomy<br>
-                                    Organization<br>
-                                    Curiosity<br>
-                                    Adaptability<br>
-                                    Initiative-taking<br>
-                                    Decision-making<br>
-                                    Perseverance <br>
+                                    Résolution de problèmes<br>
+                                    Logique<br>
+                                    Rigueur<br>
+                                    Souci du détail<br>
+                                    Travail en équipe<br>
+                                    Autonomie<br>
+                                    Organisation<br>
+                                    Curiosité<br>
+                                    Capacité d’adaptation<br>
+                                    Prise d’initiative<br>
+                                    Prise de décision<br>
+                                    Persévérance <br>
                                 </p>
                             </div>
     
                             <div class="category">
-                                <h2 class="category__title">Miscellaneous</h2>
+                                <h2 class="category__title">Divers</h2>
                                 <div class="divider"></div>
                                 <p class="category__content">
-                                    Driving license<br>
-                                    First Aid training<br>
-                                    Photography
+                                    Permis de conduire B<br>
+                                    Formation aux premiers secours<br>
+                                    Photographie
                                 </p>
                             </div>
     
@@ -147,10 +137,10 @@
                                 <div class="category__content">
                                     <div class="category__contact">
                                         <p class="category__contact__icon">
-                                            <i class="fas fa-mobile-alt" aria-label="Phone" role="img"></i>
+                                            <i class="fas fa-mobile-alt" aria-label="Téléphone" role="img"></i>
                                         </p>
                                         <p class="category__contact__link">
-                                            (+33)6 86 95 84 59
+                                            06 86 95 84 59
                                         </p>
                                     </div>
                                     <a href="mailto:contact[at]christelle-couchoux.com">
@@ -163,10 +153,10 @@
                                             </span>
                                         </span>
                                     </a>
-                                    <a href="./home.html">
+                                    <a href="https://www.christelle-couchoux.com/">
                                         <span class="category__contact hover">
                                             <span class="category__contact__icon">
-                                                <i class="fas fa-globe" aria-label="Website" role="img"></i>
+                                                <i class="fas fa-globe" aria-label="Site web" role="img"></i>
                                             </span>
                                             <span class="category__contact__link">
                                                 www.christelle-couchoux.com
@@ -202,7 +192,7 @@
                     <div id="right">
     
                         <div class="category">
-                            <h2 class="category__title">Education / Training</h2>
+                            <h2 class="category__title">Formation</h2>
                             <div class="divider"></div>
                             <div class="category__content">
                                 <div class="category__item">
@@ -210,7 +200,7 @@
                                         2021
                                     </p>
                                     <p class="category__item__description">
-                                        <strong>Web Developer training</strong>. OpenClassrooms.
+                                        <strong>Formation Développeur Web</strong>. OpenClassrooms.
                                     </p>
                                 </div>
                                 <div class="category__item">
@@ -218,8 +208,8 @@
                                         2009-2013
                                     </p>
                                     <p class="category__item__description">
-                                        <strong>Ph. D. in Biological and Environmental Sciences</strong>, Ecology and Biology major. 
-                                        University of Helsinki, Finland. Thesis: <em>Parasitoid foraging behaviour in a competitive environment.</em>
+                                        <strong>Doctorat en Biologie et Sciences de l’Environnement</strong>, spécialité Écologie 
+                                        et Biologie. Université d’Helsinki, Finlande. Thèse&nbsp;: <em>Parasitoid foraging behaviour in a competitive environment.</em>
                                     </p>
                                 </div>
                                 <div class="category__item">
@@ -227,8 +217,8 @@
                                         2006-2008
                                     </p>
                                     <p class="category__item__description">
-                                        <strong>Master's degree in Ecology and Evolutionary Biology</strong>, Animal Behavior option. 
-                                        University of Burgundy, France.
+                                        <strong>Master en Écologie et Biologie Évolutive</strong>, option Comportement Animal. 
+                                        Université de Bourgogne, Dijon.
                                     </p>
                                 </div>
                                 <div class="category__item">
@@ -236,68 +226,68 @@
                                         2000-2003
                                     </p>
                                     <p class="category__item__description">
-                                        <strong>Bachelor's degree in Biology, Geology, Earth and Universe Sciences.</strong> 
-                                        University of Burgundy, France.
+                                        <strong>Licence en Biologie, Géologie, Sciences de la Terre et l’Univers.</strong> 
+                                        Université de Bourgogne, Dijon.
                                     </p>
                                 </div>
                             </div>
                         </div>
     
                         <div class="category">
-                            <h2 class="category__title">Experience</h2>
+                            <h2 class="category__title">Expérience</h2>
                             <div class="divider"></div>
                             <div class="category__content">
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
-                                        Web developemnt
+                                        Développement web
                                     </h3>
                                     <div class="category__item">
                                         <p class="category__item__year">
                                             2021-
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Junior web developer</strong>. During my training with OpenClassrooms, 
-                                            I completed several projects including:
+                                            <strong>Développeuse Web junior</strong>. Dans le cadre de ma formation avec OpenClassrooms, 
+                                            j’ai réalisé plusieurs projets dont :
                                         </p>
                                         <ul class ="projects-list">
-                                            <li><strong>Implementing</strong> a mockup</li>
-                                            <li><strong>Animating</strong> a website</li>
-                                            <li>Optimizing a website's <strong>accessibility</strong></li>
-                                            <li>Optimizing a website's <strong>SEO</strong></li>
-                                            <li>Creating and managing a <strong>database</strong></li>
-                                            <li>Building an <strong>e-commerce website</strong></li>
-                                            <li>Creating a <strong>test plan</strong></li>
-                                            <li>Building a <strong>secure API</strong></li>
-                                            <li>Creating a <strong>corporate social network</strong></li>
+                                            <li><strong>Intégrer</strong> une maquette</li>
+                                            <li><strong>Animer</strong> un site web</li>
+                                            <li>Optimiser l’<strong>accessibilité</strong> d’un site web</li>
+                                            <li>Optimiser le <strong>SEO</strong> d’un site web</li>
+                                            <li>Créer et gérer une <strong>base de données</strong></li>
+                                            <li>Construire un <strong>site e-commerce</strong></li>
+                                            <li>Créer un <strong>plan de tests</strong></li>
+                                            <li>Construire une <strong>API sécurisée</strong></li>
+                                            <li>Créer un <strong>réseau social d’entreprise</strong></li>
                                         </ul>
                                     </div>
                                 </div>
     
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
-                                        Proofreading / Editing
+                                        Édition et correction d'épreuves
                                     </h3>
                                     <div class="category__item">
                                         <p class="category__item__year">
                                             2017-
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Novels in English</strong> (30+) : Books by D.&nbsp;Bussell, M.&nbsp;Stott, I.&nbsp;Moore...
+                                            <strong>Romans en anglais</strong> (30+) : Livres de D.&nbsp;Bussell, M.&nbsp;Stott, I.&nbsp;Moore...
                                         </p>
                                     </div>
                                 </div>
     
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
-                                        Scientific research
+                                        Recherche scientifique
                                     </h3>
                                     <div class="category__item">
                                         <p class="category__item__year">
                                             2015-2018
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Research Associate</strong>. University of Sussex / 
-                                            University of Exeter, UK.
+                                            <strong>Associée de Recherche</strong>. Université de Sussex / 
+                                            Université d’Exeter, Royaume-Uni.
                                         </p>
                                     </div>
                                     <div class="category__item">
@@ -305,7 +295,7 @@
                                             2009-2013
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Ph.D. thesis</strong>. University of Helsinki, Finland.
+                                            <strong>Thèse de Doctorat</strong>. Université d’Helsinki, Finlande.
                                         </p>
                                     </div>
                                     <div class="category__item">
@@ -313,7 +303,7 @@
                                             2006-2008
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Master 1 & 2</strong>. University of Burgundy, France.
+                                            <strong>Master 1 & 2</strong>. Université de Bourgogne, Dijon.
                                         </p>
                                     </div>
                                 </div>
@@ -321,23 +311,23 @@
                         </div>
     
                         <div class="category">
-                            <h2 class="category__title">Hard skills</h2>
+                            <h2 class="category__title">Compétences professionnelles</h2>
                             <div class="divider"></div>
                             <div>
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
-                                        Web development
+                                        Développement web
                                     </h3>
                                     <p class="subcategory__description">
-                                        <strong>Front: </strong>
+                                        <strong>Front : </strong>
                                         HTML - CSS - Sass - JavaScript - Bootstrap - Vue.js
                                     </p>
                                     <p class="subcategory__description">
-                                        <strong>Back: </strong>
-                                        Node.js - Express - MongoDB - MySQL - Sequelize
+                                        <strong>Back : </strong>
+                                        Node.js - Express - MongoDB - MySQL - Sequelize - PHP
                                     </p>
                                     <p class="subcategory__description">
-                                        <strong>Tools: </strong>
+                                        <strong>Outils : </strong>
                                         Git/GitHUb - VS Code
                                     </p>
                                 </div>
@@ -347,80 +337,44 @@
                                         Communication
                                     </h3>
                                     <p class="subcategory__description">
-                                        <strong>Organizing</strong> and <strong>communicating</strong> (written and oral) complex ideas 
-                                        effectively, in a range of formats adapted to the audiences. 
-                                        <strong>Writing</strong> progress reports. <strong>Publishing</strong> scientific articles.
+                                        <strong>Organiser</strong> et <strong>communiquer</strong> (oral et écrit) des idées complexes 
+                                        en utilisant des formats adaptés aux publics ciblés. 
+                                        <strong>Rédiger</strong> des rapports et comptes rendus. <strong>Publier</strong> des articles scientifiques.
                                     </p>
                                 </div>
     
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
-                                        Proofreading / Editing
+                                        Édition
                                     </h3>
                                     <p class="subcategory__description">
-                                        <strong>Editing</strong> scientific articles for peer-reviewed journals. 
-                                        <strong>Proofreading</strong> and <strong>editing</strong> novels in English.
+                                        <strong>Réviser</strong> des articles scientifiques pour des journaux à évaluation 
+                                        par les pairs. <strong>Éditer</strong> et <strong>corriger</strong> des épreuves de romans.
                                     </p>
                                 </div>
     
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
-                                        Project management
+                                        Gestion de projet
                                     </h3>
                                     <p class="subcategory__description">
-                                        <strong>Supervising</strong> and <strong>mentoring</strong> research projects. 
-                                        <strong>Planning</strong> projects and respecting deadlines. 
-                                        <strong>Interviewing</strong>, <strong>hiring</strong> and <strong>managing</strong> students and assistants. 
-                                        Setting and managing a <strong>budget</strong>.
+                                        <strong>Superviser</strong> et <strong>encadrer</strong> des projets de recherche. 
+                                        <strong>Planifier</strong> des projets et respecter les délais. 
+                                        <strong>Interviewer</strong>, <strong>embaucher</strong> et <strong>gérer</strong> des étudiants et assistants. 
+                                        Définir et gérer un <strong>budget</strong>.
                                     </p>
                                 </div>
                             </div>
                         </div>
+    
                     </div>
                 </section>
 
             </main>
 
-            <footer>
-                <nav id="footer-links">
-                    <ul>
-                        <li>
-                            <a href="mailto:contact[at]christelle-couchoux.com" target="_blank" title="Email me">
-                                <i class="fas fa-envelope" aria-label="Email" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/Christelle-Couchoux" target="_blank" title="Go to my GitHub profile">
-                                <i class="fab fa-github" aria-label="GitHub" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/christelle-couchoux/" target="_blank" title="Go to my LinkedIn page">
-                                <i class="fab fa-linkedin" aria-label="LinkedIn" role="img"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="./resume.html" target="_blank" title="Go to my resume">
-                                <span class="cv-icon">
-                                    CV
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+            <?php include_once('./includes/footer-fr.php'); ?>
 
-                <p id="legal">
-                    <span class="copyright">&copy; 2021 Christelle Couchoux</span>
-                    <a href="../fr/mentions-legales.html"><span class="legal-link">Legal notice</span></a>
-                    <a href="../fr/cgu.html"><span class="legal-link">T&C</span></a>
-                </p>
-            </footer>
-
-            <div class="fixed-scroll-to-top">
-                <button id="scroll-to-top">
-                    <i class="fas fa-chevron-up" aria-label="Back to the top of the page" role="img"></i>
-                </button>
-            </div>
+            <?php include_once('./includes/scroll-to-top-btn.php'); ?>
 
         </div>
     </div>

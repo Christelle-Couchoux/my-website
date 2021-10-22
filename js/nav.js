@@ -86,6 +86,7 @@ const projectsLink = document.getElementById('projects-link');
 const contactLink = document.getElementById('contact-link');
 const goToProjectsLink = document.getElementById('view-projects-link');
 
+
 function scrollToHome() {
     homeLink.addEventListener('click', function() {
         home.scrollIntoView({
