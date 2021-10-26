@@ -52,6 +52,7 @@
                             <img src="./images/logo-turquoise-transp.png" alt="logo">
                         </div>
                     </a>
+
                     <div class="language">
                         <div class="language__choice">
                             <p class="language__active" title="Français">
@@ -66,6 +67,7 @@
                             </a>
                         </div>
                     </div>
+
                     <nav id="navbar">
                         <div class="nav-mobile">
                             <div class="nav-mobile__burger" id="burger" title="Ouvrir le menu">
@@ -186,9 +188,9 @@
 
                     <div class="all-projects">
                         <!-- Groupomania -->
-                        <div class="one-project enter-right hidden-project">
-                            <h3>Développement full-stack d'un réseau social d'entreprise</h3>
-                            
+                        <div class="one-project enter-left hidden-project">
+                            <h3>Développement d'un réseau social d'entreprise</h3>
+
                             <div class="one-project__title-links">
                                 <p>Groupomania</p>
                                 <div>
@@ -200,7 +202,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://github.com/Christelle-Couchoux/Groupomania" target="_blank" title="Voir le code du projet Groupomania">
                                     <div class="one-project__image__photo">
@@ -327,9 +329,9 @@
                         </div>
 
                         <!-- Piquante -->
-                        <div class="one-project enter-left hidden-project">
+                        <div class="one-project enter-right hidden-project">
                             <h3>Développement backend d'une API sécurisée</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Piquante</p>
                                 <div>
@@ -341,7 +343,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://github.com/Christelle-Couchoux/Piquante" target="_blank" title="Voir le code du projet Piquante">
                                     <div class="one-project__image__photo">
@@ -398,9 +400,9 @@
                         </div>
 
                         <!-- Oricamera -->
-                        <div class="one-project enter-right hidden-project">
+                        <div class="one-project enter-left hidden-project">
                             <h3>Développement frontend d'un site e-commerce</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Oricamera</p>
                                 <div>
@@ -412,7 +414,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="http://oricamera.christelle-couchoux.com/html/index.html" target="_blank" title="Aller au site d'Oricamera">
                                     <div class="one-project__image__photo">
@@ -486,9 +488,9 @@
                         </div>
 
                         <!-- La Chouette Agence -->
-                        <div class="one-project enter-left hidden-project">
+                        <div class="one-project enter-right hidden-project">
                             <h3>Optimisation du SEO d'un site</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>La Chouette Agence</p>
                                 <div>
@@ -500,7 +502,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://christelle-couchoux.github.io/La-Chouette-Agence/" target="_blank" title="Aller au site de La Chouette Agence">
                                     <div class="one-project__image__photo">
@@ -574,9 +576,9 @@
                         </div>
 
                         <!-- Oh My Food! -->
-                        <div class="one-project enter-right hidden-project">
+                        <div class="one-project enter-left hidden-project">
                             <h3>Intégration d'une maquette avec animations</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Oh My Food !</p>
                                 <div>
@@ -588,7 +590,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://christelle-couchoux.github.io/ChristelleCouchoux_3_08042021/html/index.html" target="_blank" title="Aller au site d'Oh My Food !">
                                     <div class="one-project__image__photo">
@@ -650,9 +652,9 @@
                         </div>
 
                         <!-- Portfolio -->
-                        <div class="one-project enter-left hidden-project">
+                        <div class="one-project enter-right hidden-project">
                             <h3>Développement d'un site portfolio</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Mon site portfolio</p>
                                 <div>
@@ -664,7 +666,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="./index.php" target="_blank" title="Aller au site portfolio">
                                     <div class="one-project__image__photo">
@@ -728,7 +730,7 @@
                                                 </g>
                                             </svg>
                                         </li>
-                                        <li title="PHP" class="sass" aria-label="PHP">
+                                        <li title="PHP" class="php" aria-label="PHP">
                                             <svg class="tech-icon" viewBox="0 0 256 134" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
                                                 <g fill-rule="evenodd">
                                                     <ellipse class="tech-icon__bg" cx="128" cy="66.63" rx="128" ry="66.63"/>
@@ -766,7 +768,6 @@
             <?php include_once('./includes/footer-fr.php'); ?>
 
             <?php include_once('./includes/scroll-to-top-btn.php'); ?>
-
         </div>
     </div>
 </body>

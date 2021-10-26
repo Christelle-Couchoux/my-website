@@ -1,11 +1,13 @@
+// contact form confirmation
+
 .ty-contact {
     @include flexbox(row, nowrap, center, center);
-    
+
     p {
         text-align: center;
         margin: auto;
         margin: 200px 0 0 0;
         padding: 30px;
-        border: solid 1px $color-primary-dark;
+        border: solid 1px $color-primary;
     };
 };

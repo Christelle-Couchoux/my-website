@@ -20,7 +20,7 @@
     @include hover-transition;
 
     &:hover{
-        background-color: $color-secondary-dark;
+        background-color: $color-secondary;
     };
 
     .fas{
@@ -31,6 +31,7 @@
 
 
 // download CV
+
 .dl-cv {
     @include flexbox(row, nowrap, flex-end, center);
     @include size(100%, auto);
@@ -46,7 +47,7 @@
         @include hover-transition;
 
         &:hover{
-            color: $color-primary-dark;
+            color: $color-primary;
         };
     };
 };

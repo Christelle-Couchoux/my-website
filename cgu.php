@@ -43,24 +43,23 @@
         <div class="content">
             <div class="fixed-header>">
                 <header class="page-header">
-                    <div class="page-header__left">
-                        <?php include_once('./includes/logo-fr.php'); ?>
-                        <div class="language">
-                            <div class="language__choice">
-                                <p class="language__active" title="Français">
-                                    FR
-                                </p>
-                            </div>
-                            <div class="language__choice">
-                                <p title="English">
-                                    EN
-                                </p>
-                            </div>
+                    <?php include_once('./includes/logo-fr.php'); ?>
+
+                    <div class="language">
+                        <div class="language__choice">
+                            <p class="language__active" title="Français">
+                                FR
+                            </p>
+                        </div>
+                        <div class="language__choice">
+                            <p title="English">
+                                EN
+                            </p>
                         </div>
                     </div>
-                    
-                    <?php include_once('./includes/nav-pages-fr.php'); ?>             
-                </header> 
+
+                    <?php include_once('./includes/nav-pages-fr.php'); ?>       
+                </header>
             </div>
 
             <main>
@@ -75,7 +74,7 @@
                         des services par «l'Utilisateur».<br>
                         Les présentes CGU sont accessibles sur le site à la rubrique «CGU».
                     </p>
-    
+
                     <h2>Les mentions légales</h2>
                     <p>
                         L’édition et la direction de la publication du site www.christelle-couchoux.com 
@@ -85,7 +84,7 @@
                         est situé au Hostinger International LTD, 61 Lordou Vironos Street, 6023 Larnaca, Chypre, 
                         et est joignable à<a href="https://www.hostinger.fr/contact"><span class="legal-link">https://www.hostinger.fr/contact</span></a>.
                     </p>
-    
+
                     <h2>Accès au site</h2>
                     <p>
                         Le site www.christelle-couchoux.com permet à l'Utilisateur un accès gratuit aux services suivants : 
@@ -94,7 +93,7 @@
                         Tous les frais supportés par l'Utilisateur pour accéder au service (matériel informatique, 
                         logiciels, connexion Internet, etc.) sont à sa charge.
                     </p>
-    
+
                     <h2>Collecte des données</h2>
                     <p>
                         Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles 
@@ -106,7 +105,7 @@
                         - par mail à l'adresse email contact[at]christelle-couchoux.com<br>
                         - via un formulaire de contact.
                     </p>
-    
+
                     <h2>Propriété intellectuelle</h2>
                     <p>
                         Les marques, logos, signes ainsi que tous les contenus du site (textes, images, son…) font l'objet 
@@ -120,7 +119,7 @@
                         Code de propriété intellectuelle que l’Utilisateur qui reproduit, copie ou publie le contenu protégé 
                         doit citer l’auteur et sa source.
                     </p>
-    
+
                     <h2>Responsabilités</h2>
                     <p>
                         Les sources des informations diffusées sur le site www.christelle-couchoux.com sont réputées fiables 
@@ -135,7 +134,7 @@
                         La responsabilité du site ne peut être engagée en cas de force majeure ou du fait imprévisible 
                         et insurmontable d'un tiers.
                     </p>
-    
+
                     <h2>Liens hypertextes</h2>
                     <p>
                         Des liens hypertextes peuvent être présents sur le site. L’Utilisateur est informé qu’en cliquant 
@@ -143,7 +142,7 @@
                         les pages web sur lesquelles aboutissent ces liens et ne saurait, en aucun cas, être responsable 
                         de leur contenu.
                     </p>
-    
+
                     <h2>Cookies</h2>
                     <p>
                         L’Utilisateur est informé que lors de ses visites sur le site, des cookies peuvent s’installer 
@@ -157,7 +156,7 @@
                         En naviguant sur le site, il les accepte. L’Utilisateur pourra désactiver ces cookies par 
                         l’intermédiaire des paramètres figurant au sein de son logiciel de navigation.
                     </p>
-    
+
                     <h2>Droit applicable et juridiction compétente</h2>
                     <p>
                         La législation française s'applique au présent contrat. En cas d'absence de résolution amiable 
@@ -167,7 +166,7 @@
                         <br>
                         Rédigé sur <a href="http://legalplace.fr"><span class="legal-link">http://legalplace.fr</span></a>
                     </p>
-                    
+
                 </section>  
 
             </main>
@@ -175,7 +174,6 @@
             <?php include_once('./includes/footer-fr.php'); ?>
 
             <?php include_once('./includes/scroll-to-top-btn.php'); ?>
-
         </div>
     </div>
 

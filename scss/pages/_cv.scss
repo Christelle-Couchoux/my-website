@@ -76,12 +76,12 @@
         font-size: map-get($map: $font-size, $key: cv-h2); // override browser style
         text-transform: uppercase;
         @include flexbox(row, wrap, flex-start, center);
-        color: $color-primary-dark;
+        color: $color-primary;
         padding: 0 0 3px 0;
     };
 
     .divider {
-        background-color: $color-primary-dark;
+        background-color: $color-primary;
         @include size(100%, 1px);
         margin: 0 0 8px 0;
     };
@@ -163,7 +163,7 @@
             font-size: map-get($map: $font-size, $key: cv-h3); // override browser style
             font-weight: 400; // override browser style
             text-transform: uppercase;
-            color: $color-secondary-dark;
+            color: $color-secondary;
             padding: 0 0 3px 0;
         };
 
@@ -176,7 +176,7 @@
         @include hover-transition;
 
         &:hover {
-            color: $color-secondary-dark;
+            color: $color-secondary;
         };
     };
 };

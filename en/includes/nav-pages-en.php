@@ -13,14 +13,14 @@
                 <a href="./home.php#about">
                     About
                 </a>
-            </p>    
+            </p>
             <p class="nav-mobile__section-link">
                 <a href="./home.php#projects">
                     Projects
                 </a>
             </p>
             <p class="nav-mobile__section-link">
-                <a href="./home.php#contact">    
+                <a href="./home.php#contact"> 
                     Contact
                 </a>
             </p>
@@ -30,7 +30,6 @@
         </div>
     </div>
     <div class="nav-desktop">
-        
         <p class="nav-desktop__section-link">
             <a href="./home.php">
                 Home
@@ -47,7 +46,7 @@
             </a>
         </p>
         <p class="nav-desktop__section-link">
-            <a href="./home.php#contact"> 
+            <a href="./home.php#contact">
                 Contact
             </a>
         </p>

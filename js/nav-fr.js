@@ -1,4 +1,3 @@
-////////////////////////////////////////////////////
 // Go to CV page
 
 const cvLinkMobile = document.getElementById('cv-link-mobile');

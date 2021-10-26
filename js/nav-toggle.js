@@ -1,4 +1,3 @@
-////////////////////////////////////////////////////
 // Toggle mobile nav links
 
 const burger = document.getElementById('burger');

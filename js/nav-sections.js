@@ -1,4 +1,3 @@
-////////////////////////////////////////////////////
 // go to section (mobile)
 
 const home = document.getElementById('home');

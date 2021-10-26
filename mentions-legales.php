@@ -43,24 +43,23 @@
         <div class="content">
             <div class="fixed-header>">
                 <header class="page-header">
-                    <div class="page-header__left">
-                        <?php include_once('./includes/logo-fr.php'); ?>
-                        <div class="language">
-                            <div class="language__choice">
-                                <p class="language__active" title="Français">
-                                    FR
-                                </p>
-                            </div>
-                            <div class="language__choice">
-                                <p title="English">
-                                    EN
-                                </p>
-                            </div>
+                    <?php include_once('./includes/logo-fr.php'); ?>
+
+                    <div class="language">
+                        <div class="language__choice">
+                            <p class="language__active" title="Français">
+                                FR
+                            </p>
+                        </div>
+                        <div class="language__choice">
+                            <p title="English">
+                                EN
+                            </p>
                         </div>
                     </div>
-                    
-                    <?php include_once('./includes/nav-pages-fr.php'); ?>             
-                </header>  
+
+                    <?php include_once('./includes/nav-pages-fr.php'); ?>    
+                </header>
             </div>
 
             <main>
@@ -77,21 +76,21 @@
                         et sans réserve des présentes mentions légales.<br>
                         Ces dernières sont accessibles sur le site à la rubrique «Mentions légales».
                     </p>
-    
+
                     <h2>L'éditeur</h2>
                     <p>
                         L’édition et la direction de la publication du site www.christelle-couchoux.com 
                         sont assurées par Christelle Couchoux, domiciliée au 5 rue Anne Frank, 71100 Saint-Rémy, France, 
                         dont le numéro de téléphone est 0686958459, et l'adresse e-mail contact[at]christelle-couchoux.com.
                     </p>
-    
+
                     <h2>L'hébergeur</h2>
                     <p>
                         L'hébergeur du site www.christelle-couchoux.com est la Société Hostinger, dont le siège social 
                         est situé au Hostinger International LTD, 61 Lordou Vironos Street, 6023 Larnaca, Chypre, 
                         et est joignable à<a href="https://www.hostinger.fr/contact"><span class="legal-link">https://www.hostinger.fr/contact</span></a>.
                     </p>
-    
+
                     <h2>Accès au site</h2>
                     <p>
                         Le site est accessible par tout endroit, 7j/7, 24h/24 sauf cas de force majeure, 
@@ -99,7 +98,7 @@
                         En cas de modification, interruption ou suspension des services le site www.christelle-couchoux.com 
                         ne saurait être tenu responsable.
                     </p>
-    
+
                     <h2>Collecte des données</h2>
                     <p>
                         Le site assure à l'Utilisateur une collecte et un traitement d'informations personnelles 
@@ -111,7 +110,7 @@
                         - par mail à l'adresse email contact[at]christelle-couchoux.com<br>
                         - via un formulaire de contact.
                     </p>
-    
+
                     <h2>Cookies</h2>
                     <p>
                         L’Utilisateur est informé que lors de ses visites sur le site, des cookies peuvent s’installer 
@@ -121,7 +120,7 @@
                         L’Utilisateur pourra désactiver ces cookies par l’intermédiaire des paramètres figurant au sein 
                         de son logiciel de navigation.
                     </p>
-    
+
                     <h2>Propriété intellectuelle</h2>
                     <p>
                         Toute utilisation, reproduction, diffusion, commercialisation, modification de toute ou 
@@ -134,7 +133,7 @@
                         <br>
                         Rédigé sur<a href="http://legalplace.fr"><span class="legal-link">http://legalplace.fr</span></a>
                     </p>
-                    
+
                 </section>
 
             </main>
@@ -142,7 +141,6 @@
             <?php include_once('./includes/footer-fr.php'); ?>
 
             <?php include_once('./includes/scroll-to-top-btn.php'); ?>
-
         </div>
     </div>
 

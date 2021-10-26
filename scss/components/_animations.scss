@@ -1,7 +1,7 @@
 // show / hide with js
 /*
-js add class (=hide elements) at page loading
-and remove class when element scroll into view.
+js adds class (=hide elements) at page loading
+and removes class when element scrolls into view.
 if js fails content is displayed.
 */
 .hidden-js {
@@ -10,7 +10,7 @@ if js fails content is displayed.
 
 
 // About and Contact sections
-// fade in, title get bigger, content go up
+// fades in, title gets bigger, content goes up
 // class added with js
 .fade-in-section {
     h2, .section-divider {
@@ -26,7 +26,7 @@ if js fails content is displayed.
 // Projects section
 
 // title
-// fade in and get bigger
+// fades in and gets bigger
 // class added with js
 .fade-in-title {
     h2, .section-divider {
@@ -36,7 +36,7 @@ if js fails content is displayed.
 
 
 // project
-// fade in and come from side
+// fades in and comes from side
 // class added with js
 
 .fade-in-project.enter-right {

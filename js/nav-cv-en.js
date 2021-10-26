@@ -1,3 +1,5 @@
+// resume link active on resume page
+
 const navLinkCvEn = document.getElementById('cv-en-link');
 const mobileNavLinkCvEn = document.getElementById('cv-en-link-mobile');
 

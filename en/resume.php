@@ -19,7 +19,7 @@
 
     <title>Resume - Christelle Couchoux</title>
     <meta name="title" content="Resume - Christelle Couchoux">
-    <meta name="description" content="Resume of Christelle Couchoux, Full Stack Web Developer.
+    <meta name="description" content="Resume of Christelle Couchoux, Full Stack Web Developer. 
     On this page you can view my resume and download it as a .pdf">
     <link rel=”canonical” href="https://www.christelle-couchoux.com/cv"/>
 
@@ -44,26 +44,24 @@
         <div class="content">
             <div class="fixed-header>">
                 <header class="page-header">
-                    <div class="page-header__left">
-                        <?php include_once('./includes/logo-en.php'); ?> 
-                        <div class="language">
-                            <div class="language__choice">
-                                <a href="../cv.php">
-                                    <p title="Français">
-                                        FR
-                                    </p>
-                                </a>
-                            </div>
-                            <div class="language__choice">
-                                <p class="language__active" title="English">
-                                    EN
+                    <?php include_once('./includes/logo-en.php'); ?>
+
+                    <div class="language">
+                        <div class="language__choice">
+                            <a href="../cv.php">
+                                <p title="Français">
+                                    FR
                                 </p>
-                            </div>
+                            </a>
+                        </div>
+                        <div class="language__choice">
+                            <p class="language__active" title="English">
+                                EN
+                            </p>
                         </div>
                     </div>
 
-                    <?php include_once('./includes/nav-pages-en.php'); ?> 
-                            
+                    <?php include_once('./includes/nav-pages-en.php'); ?>
                 </header>
             </div>
 
@@ -94,7 +92,7 @@
                                     <strong>Looking for a junior web developer position.</strong>
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Languages</h2>
                                 <div class="divider"></div>
@@ -104,7 +102,7 @@
                                     Spanish (A2)<br>
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Soft skills</h2>
                                 <div class="divider"></div>
@@ -123,7 +121,7 @@
                                     Perseverance <br>
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Miscellaneous</h2>
                                 <div class="divider"></div>
@@ -133,7 +131,7 @@
                                     Photography
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Contact</h2>
                                 <div class="divider"></div>
@@ -189,11 +187,11 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
-    
+
                     <div id="right">
-    
+
                         <div class="category">
                             <h2 class="category__title">Education / Training</h2>
                             <div class="divider"></div>
@@ -235,7 +233,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="category">
                             <h2 class="category__title">Experience</h2>
                             <div class="divider"></div>
@@ -265,7 +263,7 @@
                                         </ul>
                                     </div>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Proofreading / Editing
@@ -279,7 +277,7 @@
                                         </p>
                                     </div>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Scientific research
@@ -312,7 +310,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="category">
                             <h2 class="category__title">Hard skills</h2>
                             <div class="divider"></div>
@@ -334,7 +332,7 @@
                                         Git/GitHUb - VS Code
                                     </p>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Communication
@@ -345,7 +343,7 @@
                                         <strong>Writing</strong> progress reports. <strong>Publishing</strong> scientific articles.
                                     </p>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Proofreading / Editing
@@ -355,7 +353,7 @@
                                         <strong>Proofreading</strong> and <strong>editing</strong> novels in English.
                                     </p>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Project management

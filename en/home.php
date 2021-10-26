@@ -52,6 +52,7 @@
                             <img src="../images/logo-turquoise-transp.png" alt="logo">
                         </div>
                     </a>
+
                     <div class="language">
                         <div class="language__choice">
                             <a href="../">
@@ -66,6 +67,7 @@
                             </p>
                         </div>
                     </div>
+
                     <nav id="navbar">
                         <div class="nav-mobile">
                             <div class="nav-mobile__burger" id="burger" title="Expand the menu">
@@ -187,9 +189,9 @@
 
                     <div class="all-projects">
                         <!-- Groupomania -->
-                        <div class="one-project enter-right hidden-project">
-                            <h3>Full stack development of a corporate social network</h3>
-                            
+                        <div class="one-project enter-left hidden-project">
+                            <h3>Development of a corporate social network</h3>
+
                             <div class="one-project__title-links">
                                 <p>Groupomania</p>
                                 <div>
@@ -201,7 +203,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://github.com/Christelle-Couchoux/Groupomania" target="_blank" title="Go to Groupomania project's code">
                                     <div class="one-project__image__photo">
@@ -328,9 +330,9 @@
                         </div>
 
                         <!-- Piquante -->
-                        <div class="one-project enter-left hidden-project">
+                        <div class="one-project enter-right hidden-project">
                             <h3>Back end development of a secure API</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Piquante</p>
                                 <div>
@@ -342,7 +344,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://github.com/Christelle-Couchoux/Piquante" target="_blank" title="Go to Piquante project's code">
                                     <div class="one-project__image__photo">
@@ -399,9 +401,9 @@
                         </div>
 
                         <!-- Oricamera -->
-                        <div class="one-project enter-right hidden-project">
+                        <div class="one-project enter-left hidden-project">
                             <h3>Front end development of an e-commerce website</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Oricamera</p>
                                 <div>
@@ -413,7 +415,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="http://oricamera.christelle-couchoux.com/html/index.html" target="_blank" title="Go to Oricamera project's website">
                                     <div class="one-project__image__photo">
@@ -487,9 +489,9 @@
                         </div>
 
                         <!-- La Chouette Agence -->
-                        <div class="one-project enter-left hidden-project">
+                        <div class="one-project enter-right hidden-project">
                             <h3>SEO optimisation of a website</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>La Chouette Agence</p>
                                 <div>
@@ -501,7 +503,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://christelle-couchoux.github.io/La-Chouette-Agence/" target="_blank" title="Go to La Chouette Agence project's website">
                                     <div class="one-project__image__photo">
@@ -575,9 +577,9 @@
                         </div>
 
                         <!-- Oh My Food! -->
-                        <div class="one-project enter-right hidden-project">
+                        <div class="one-project enter-left hidden-project">
                             <h3>Implementation of a website with animations</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>Oh My Food !</p>
                                 <div>
@@ -589,7 +591,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="https://christelle-couchoux.github.io/ChristelleCouchoux_3_08042021/html/index.html" target="_blank" title="Go to Oh My Food ! project's website">
                                     <div class="one-project__image__photo">
@@ -651,9 +653,9 @@
                         </div>
 
                         <!-- Portfolio -->
-                        <div class="one-project enter-left hidden-project">
+                        <div class="one-project enter-right hidden-project">
                             <h3>Development of a portfolio website</h3>
-                            
+
                             <div class="one-project__title-links">
                                 <p>My portfolio website</p>
                                 <div>
@@ -665,7 +667,7 @@
                                     </a>
                                 </div>
                             </div>
-                            
+
                             <div class="one-project__image">
                                 <a href="./home.php" target="_blank" title="Go to portfolio website">
                                     <div class="one-project__image__photo">
@@ -729,7 +731,7 @@
                                                 </g>
                                             </svg>
                                         </li>
-                                        <li title="PHP" class="sass" aria-label="PHP">
+                                        <li title="PHP" class="php" aria-label="PHP">
                                             <svg class="tech-icon" viewBox="0 0 256 134" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMinYMin meet">
                                                 <g fill-rule="evenodd">
                                                     <ellipse class="tech-icon__bg" cx="128" cy="66.63" rx="128" ry="66.63"/>

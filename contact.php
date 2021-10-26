@@ -31,45 +31,43 @@
 <body>
     <div class="bg">
         <div class="content">
-
             <div class="fixed-header>">
                 <header class="page-header">
-                    <div class="page-header__left">
-                        <?php include_once('./includes/logo-fr.php'); ?>
-                        <div class="language">
-                            <div class="language__choice">
-                                <p class="language__active" title="Français">
-                                    FR
+                    <?php include_once('./includes/logo-fr.php'); ?>
+
+                    <div class="language">
+                        <div class="language__choice">
+                            <p class="language__active" title="Français">
+                                FR
+                            </p>
+                        </div>
+                        <div class="language__choice">
+                            <a>
+                                <p title="English">
+                                    EN
                                 </p>
-                            </div>
-                            <div class="language__choice">
-                                <a>
-                                    <p title="English">
-                                        EN
-                                    </p>
-                                </a>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    
+
                     <?php include_once('./includes/nav-pages-fr.php'); ?>             
-                </header> 
+                </header>
             </div>
 
             <main>
             <?php
-            
+
             if($_POST) {
-                
+
                 $email_body = "<div>";
-                
+
                 if(isset($_POST['name'])) {
                     $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
                     $email_body .= "<div>
                                         <label><b>Name:</b></label>&nbsp;<span>".$name."</span>
                                     </div>";
                 }
-            
+
                 if(isset($_POST['email'])) {
                     $email = str_replace(array("\r", "\n", "%0a", "%0d"), '', $_POST['email']);
                     $email = filter_var($email, FILTER_VALIDATE_EMAIL);
@@ -77,7 +75,7 @@
                                         <label><b>Email:</b></label>&nbsp;<span>".$email."</span>
                                     </div>";
                 }
-                
+
                 if(isset($_POST['message'])) {
                     $message = htmlspecialchars($_POST['message']);
                     $email_body .= "<div>
@@ -92,12 +90,12 @@
                 $to = "contact@christelle-couchoux.com";
 
                 $subject = "Message via contact form at christelle-couchoux.com";
-            
+
                 $headers  = 'MIME-Version: 1.0' . "\r\n"
                 .'Content-type: text/html; charset=utf-8' . "\r\n"
                 .'From: ' . $email . "\r\n";
 
-                
+
                 if(mail($to, $subject, $email_body, $headers)) {
                     echo    "<div class=\"ty-contact\">
                                 <p>Merci pour votre message, $name.<br>
@@ -106,7 +104,7 @@
                 } else {
                     echo "<p>Désolée, votre message n'a pas pu être envoyé.</p>";
                 }
-                
+
             } else {
                 echo '<p>Une erreur est survenue.</p>';
             }
@@ -116,7 +114,6 @@
             <?php include_once('./includes/footer-fr.php'); ?>
 
             <?php include_once('./includes/scroll-to-top-btn.php'); ?>
-
         </div>
     </div>
 </body>

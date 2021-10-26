@@ -2,7 +2,7 @@
     @include position(absolute, 0, 0, auto, 0); // fixed nav
     @include size(100%, auto); // fixed nav
     max-width: 1600px; // fixed nav
-    margin: auto; // fixed nav   
+    margin: auto; // fixed nav
 };
 
 
@@ -15,32 +15,6 @@
     max-width: 1600px;
     margin: auto;
     border-bottom: solid 1px $color-tertiary;
-
-    // cv and legal pages
-
-    &__left {
-        @include flexbox(row, nowrap, space-between, center);
-    };
-
-    &__right {
-        @include flexbox(row, nowrap, space-between, center);
-        margin: 0 20px 0 0;
-
-        @include sm{
-            margin: 0 50px 0 0;
-        };
-        
-        &__home-link {
-            text-transform: uppercase;
-            @include flexbox(row, nowrap, center, center);
-            @include hover-transition;
-
-            &:hover {
-                color: $color-secondary-dark;
-                @include underline(2px, 5px);
-            };
-        };
-    }; 
 };
 
 
@@ -79,12 +53,12 @@
             };
 
             &:hover {
-                color: $color-secondary-dark;
+                color: $color-secondary;
             };
         };
 
         .active-burger {
-            color: $color-secondary-dark;
+            color: $color-secondary;
         };
 
         &__links {
@@ -106,18 +80,18 @@
 
             &:hover {
                 background-color: $color-basic-medium;
-                color: $color-secondary-dark;
+                color: $color-secondary;
                 @include underline(2px, 5px);
 
                 // for header not on homepage
                 a {
-                    color: $color-secondary-dark;
+                    color: $color-secondary;
                 };
             };
         };
 
         .active-link {
-            color: $color-secondary-dark;
+            color: $color-secondary;
             @include hover-transition;
         };
     };
@@ -136,22 +110,22 @@
             font-size: 1.2rem;
             @include flexbox(row, nowrap, center, center);
             @include size(auto);
-            margin: 0 15px 0 15px;
+            margin: 0 14px 0 14px;
             @include hover-transition;
 
             &:hover {
-                color: $color-secondary-dark;
+                color: $color-secondary;
                 @include underline(2px, 5px);
-                
+
                 // for header not on homepage
                 a {
-                    color: $color-secondary-dark;
+                    color: $color-secondary;
                 };
             };
         };
 
         .active-link {                
-            color: $color-secondary-dark;
+            color: $color-secondary;
             @include hover-transition;
         };
     };

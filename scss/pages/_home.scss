@@ -1,6 +1,6 @@
 #home {
     text-align: center;
-    background-image: url('../../images/background.jpeg');
+    background-image: url('../../images/background.jpeg'); // path from pefixed css file
     @include flexbox(column, nowrap, center, center);
     max-width: 1600px;
     margin: auto;
@@ -21,7 +21,6 @@
         @include md {
             padding: 50px 100px 50px 100px;
         };
-        
     };
 
     .hello {
@@ -49,9 +48,9 @@
             @include hover-transition;
 
             &:hover {
-                color: $color-secondary-dark;
+                color: $color-secondary;
                 @include underline(1px, 8px);
-                border: solid 1px $color-secondary-dark;
+                border: solid 1px $color-secondary;
             };
         };
     };

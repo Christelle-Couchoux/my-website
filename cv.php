@@ -44,26 +44,24 @@
         <div class="content">
             <div class="fixed-header>">
                 <header class="page-header">
-                    <div class="page-header__left">
-                        <?php include_once('./includes/logo-fr.php'); ?> 
-                        <div class="language">
-                            <div class="language__choice">
-                                <p class="language__active" title="Français">
-                                    FR
+                    <?php include_once('./includes/logo-fr.php'); ?>
+
+                    <div class="language">
+                        <div class="language__choice">
+                            <p class="language__active" title="Français">
+                                FR
+                            </p>
+                        </div>
+                        <div class="language__choice">
+                            <a href="./en/resume.php">
+                                <p title="English">
+                                    EN
                                 </p>
-                            </div>
-                            <div class="language__choice">
-                                <a href="./en/resume.php">
-                                    <p title="English">
-                                        EN
-                                    </p>
-                                </a>
-                            </div>
+                            </a>
                         </div>
                     </div>
-                    
+
                     <?php include_once('./includes/nav-pages-fr.php'); ?>
-                            
                 </header>
             </div>
 
@@ -79,7 +77,7 @@
 
                 <section id="cv">
                     <div id="left">
-    
+
                         <h1>
                             <span class="h1-name">Christelle COUCHOUX</span>
                             <span class="job-title">Développeuse Web Full-Stack</span>
@@ -94,7 +92,7 @@
                                     <strong>À la recherche d’un poste de développeuse web junior.</strong>
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Langues</h2>
                                 <div class="divider"></div>
@@ -103,7 +101,7 @@
                                     Espagnol (A2)<br>
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Compétences personnelles</h2>
                                 <div class="divider"></div>
@@ -122,7 +120,7 @@
                                     Persévérance <br>
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Divers</h2>
                                 <div class="divider"></div>
@@ -132,7 +130,7 @@
                                     Photographie
                                 </p>
                             </div>
-    
+
                             <div class="category">
                                 <h2 class="category__title">Contact</h2>
                                 <div class="divider"></div>
@@ -188,11 +186,11 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
-    
+
                     <div id="right">
-    
+
                         <div class="category">
                             <h2 class="category__title">Formation</h2>
                             <div class="divider"></div>
@@ -234,7 +232,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="category">
                             <h2 class="category__title">Expérience</h2>
                             <div class="divider"></div>
@@ -264,7 +262,7 @@
                                         </ul>
                                     </div>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Édition et correction d'épreuves
@@ -278,7 +276,7 @@
                                         </p>
                                     </div>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Recherche scientifique
@@ -311,7 +309,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                         <div class="category">
                             <h2 class="category__title">Compétences professionnelles</h2>
                             <div class="divider"></div>
@@ -333,7 +331,7 @@
                                         Git/GitHUb - VS Code
                                     </p>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Communication
@@ -344,7 +342,7 @@
                                         <strong>Rédiger</strong> des rapports et comptes rendus. <strong>Publier</strong> des articles scientifiques.
                                     </p>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Édition
@@ -354,7 +352,7 @@
                                         par les pairs. <strong>Éditer</strong> et <strong>corriger</strong> des épreuves de romans.
                                     </p>
                                 </div>
-    
+
                                 <div class="subcategory">
                                     <h3 class="subcategory__title">
                                         Gestion de projet
@@ -368,7 +366,7 @@
                                 </div>
                             </div>
                         </div>
-    
+
                     </div>
                 </section>
 
@@ -377,7 +375,6 @@
             <?php include_once('./includes/footer-fr.php'); ?>
 
             <?php include_once('./includes/scroll-to-top-btn.php'); ?>
-
         </div>
     </div>
 </body>

@@ -1,5 +1,4 @@
-////////////////////////////////////////////////////
-// Go to CV page
+// Go to resume page
 
 const cvEnLinkMobile = document.getElementById('cv-en-link-mobile');
 
