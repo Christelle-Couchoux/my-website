@@ -23,7 +23,8 @@
 
     <!-- js scripts -->
     <script src="../js/scroll-to-top.js" defer></script>
-    <script src="../js/nav.js" defer></script>
+    <script src="../js/nav-toggle.js" defer></script>
+    <script src="../js/nav-en.js" defer></script>
 
 </head>
 
@@ -34,7 +35,7 @@
             <div class="fixed-header>">
                 <header class="page-header">
                     <div class="page-header__left">
-                        <?php include_once('./includes/logo-home-en.php'); ?>
+                        <?php include_once('./includes/logo-en.php'); ?>
                         <div class="language">
                             <div class="language__choice">
                                 <p title="Français">
@@ -48,7 +49,7 @@
                             </div>
                         </div>
                     </div>
-                    <?php include_once('./includes/nav-home-en.php'); ?> 
+                    <?php include_once('./includes/nav-pages-en.php'); ?> 
                 </header>
             </div>
 

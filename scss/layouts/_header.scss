@@ -124,7 +124,7 @@
 
     .nav-desktop {
         @include flexbox(row, nowrap, flex-end, center);
-        @include size(75%, auto);
+        @include size(90%, auto);
         margin: 20px;
         display: none; // after flexbox mixin to change from flex display
 
@@ -135,7 +135,8 @@
         &__section-link {
             font-size: 1.2rem;
             @include flexbox(row, nowrap, center, center);
-            @include size(25%, auto);
+            @include size(auto);
+            margin: 0 15px 0 15px;
             @include hover-transition;
 
             &:hover {

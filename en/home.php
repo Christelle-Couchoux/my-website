@@ -34,7 +34,9 @@
 
     <!-- js scripts -->
     <script src="../js/scroll-to-top.js" defer></script>
-    <script src="../js/nav.js" defer></script>
+    <script src="../js/nav-toggle.js" defer></script>
+    <script src="../js/nav-sections.js" defer></script>
+    <script src="../js/nav-en.js" defer></script>
     <script src="../js/animations.js" defer></script>
     <script src="../js/show-project.js" defer></script>
 
@@ -70,7 +72,7 @@
                                 <i class="fas fa-bars" aria-label="Expand the menu" role="img"></i>
                             </div>
                             <div class="nav-mobile__links" id="links">
-                                <p class="nav-mobile__section-link mobile-nav-link" id="home-link-mobile">
+                                <p class="nav-mobile__section-link mobile-nav-link active-link" id="home-link-mobile">
                                     Home
                                 </p>
                                 <p class="nav-mobile__section-link mobile-nav-link" id="about-link-mobile">
@@ -82,10 +84,13 @@
                                 <p class="nav-mobile__section-link mobile-nav-link" id="contact-link-mobile">
                                     Contact
                                 </p>
+                                <p class="nav-mobile__section-link mobile-nav-link-cv" id="cv-en-link-mobile">
+                                    Resume
+                                </p>
                             </div>
                         </div>
                         <div class="nav-desktop">
-                            <p class="nav-desktop__section-link nav-link" id="home-link">
+                            <p class="nav-desktop__section-link nav-link active-link" id="home-link">
                                 Home
                             </p>
                             <p class="nav-desktop__section-link nav-link" id="about-link">
@@ -96,6 +101,9 @@
                             </p>
                             <p class="nav-desktop__section-link nav-link" id="contact-link">
                                 Contact
+                            </p>
+                            <p class="nav-desktop__section-link nav-link" id="cv-en-link">
+                                Resume
                             </p>
                         </div>
                     </nav>

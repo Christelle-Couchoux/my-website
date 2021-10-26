@@ -1,29 +1,4 @@
 ////////////////////////////////////////////////////
-// Toggle mobile nav links
-
-const burger = document.getElementById('burger');
-
-function showNavLinks(burger) {
-    burger.addEventListener('click', function() {
-        const links = document.getElementById('links');
-        if (links.style.display === 'flex') {
-            links.style.display = 'none';
-            burger.classList.remove('active-burger');
-        } else {
-            links.style.display = 'flex';
-            burger.classList.add('active-burger');
-        };
-    })
-};
-
-
-// call function
-
-showNavLinks(burger);
-
-
-
-////////////////////////////////////////////////////
 // go to section (mobile)
 
 const home = document.getElementById('home');
@@ -35,7 +10,7 @@ const homeLinkMobile = document.getElementById('home-link-mobile');
 const aboutLinkMobile = document.getElementById('about-link-mobile');
 const projectsLinkMobile = document.getElementById('projects-link-mobile');
 const contactLinkMobile = document.getElementById('contact-link-mobile');
-const goToProjectsLinkMobile = document.getElementById('view-projects-link');
+
 
 function scrollToHomeMobile() {
     homeLinkMobile.addEventListener('click', function() {
@@ -84,6 +59,7 @@ const homeLink = document.getElementById('home-link');
 const aboutLink = document.getElementById('about-link');
 const projectsLink = document.getElementById('projects-link');
 const contactLink = document.getElementById('contact-link');
+
 const goToProjectsLink = document.getElementById('view-projects-link');
 
 
@@ -119,6 +95,7 @@ function scrollToContact() {
     })
 };
 
+
 function scrollToProjectsView() {
     goToProjectsLink.addEventListener('click', function() {
         projects.scrollIntoView({
@@ -130,16 +107,17 @@ function scrollToProjectsView() {
 
 // call functions
 
-scrollToHome();
-scrollToAbout();
-scrollToProjects();
-scrollToContact();
-scrollToProjectsView();
-
 scrollToHomeMobile();
 scrollToAboutMobile();
 scrollToProjectsMobile();
 scrollToContactMobile();
+
+scrollToHome();
+scrollToAbout();
+scrollToProjects();
+scrollToContact();
+
+scrollToProjectsView();
 
 
 
@@ -161,6 +139,7 @@ function changeMobileLinkState() {
 
 const navLinks = document.querySelectorAll('.nav-link');
 const sections = document.querySelectorAll('section');
+
 
 function changeLinkState() {
     let index = sections.length;
