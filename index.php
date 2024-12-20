@@ -12,7 +12,7 @@
     <meta name="description" content="Christelle Couchoux, Développeuse Web Full-stack. 
     Sur mon site, vous pouvez trouver mes compétences et mon expérience, télécharger mon CV, 
     découvrir les projets sur lesquels j'ai travaillé et me contacter.">
-    <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/home"/>
+    <!-- <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/home"/> -->
 
     <link rel="icon" href="./favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="./css/prefixed/style.css"/>
@@ -43,7 +43,7 @@
                         </div>
                     </a>
 
-                    <div class="language">
+                    <!-- <div class="language">
                         <div class="language__choice">
                             <p class="language__active" title="Français">
                                 FR
@@ -56,7 +56,7 @@
                                 </p>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <nav id="navbar">
                         <div class="nav-mobile">

@@ -11,7 +11,7 @@
     <meta name="title" content="Christelle Couchoux">
     <meta name="description" content="Christelle Couchoux, Développeuse Web Full-stack. 
     Merci pour votre message. Vous recevrez une réponse sous 24 heures.">
-    <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/contact"/>
+    <!-- <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/contact"/> -->
 
     <link rel="icon" href="./favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="./css/prefixed/style.css"/>
@@ -35,8 +35,8 @@
                 <header class="page-header">
                     <?php include_once('./includes/logo-fr.php'); ?>
 
-                    <div class="language">
-                        <div class="language__choice">
+                    <!-- <div class="language"> -->
+                        <!-- <div class="language__choice">
                             <p class="language__active" title="Français">
                                 FR
                             </p>
@@ -47,8 +47,8 @@
                                     EN
                                 </p>
                             </a>
-                        </div>
-                    </div>
+                        </div> -->
+                    <!-- </div> -->
 
                     <?php include_once('./includes/nav-pages-fr.php'); ?>             
                 </header>

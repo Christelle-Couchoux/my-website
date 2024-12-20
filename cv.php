@@ -11,7 +11,7 @@
     <meta name="title" content="CV - Christelle Couchoux">
     <meta name="description" content="CV de Christelle Couchoux, Développeuse Web Full-Stack. 
     Sur cette page vous pouvez consulter mon CV et le télécharger au format .pdf">
-    <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/resume"/>
+    <!-- <link rel=”alternate” hreflang="en" href="https://www.christelle-couchoux.com/en/resume"/> -->
 
     <link rel="icon" href="./favicon.ico"/>
     <link rel="stylesheet" type="text/css" href="./css/prefixed/style.css"/>
@@ -36,7 +36,7 @@
                 <header class="page-header">
                     <?php include_once('./includes/logo-fr.php'); ?>
 
-                    <div class="language">
+                    <!-- <div class="language">
                         <div class="language__choice">
                             <p class="language__active" title="Français">
                                 FR
@@ -49,7 +49,7 @@
                                 </p>
                             </a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <?php include_once('./includes/nav-pages-fr.php'); ?>
                 </header>
