@@ -253,4 +253,22 @@
             };
         };    
     };
+
+    #see-more-projects,
+    #see-fewer-projects {
+        font-weight: bold;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        @include underline(1px, 3px);
+        @include hover-transition;
+
+        &:hover {
+            color: $color-secondary;
+        };
+    };
+
+    .hidden-more-projects {
+        display: none;
+    }
 };
