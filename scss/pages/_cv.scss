@@ -33,7 +33,7 @@
     .job-title {
         font-size: map-get($map: $font-size, $key: cv-job-title);
         line-height: map-get($map: $font-size, $key: cv-job-title-line-height);
-        padding: 50px 20px 80px 20px;
+        padding: 50px 20px 100px 20px;
     };
 };
 
@@ -75,6 +75,7 @@
         font-style: italic;
         font-size: map-get($map: $font-size, $key: cv-h2); // override browser style
         text-transform: uppercase;
+        text-align: left;
         @include flexbox(row, wrap, flex-start, center);
         color: $color-primary;
         padding: 0 0 3px 0;
@@ -170,6 +171,11 @@
         &__description {
             padding: 0 0 5px 0;
         };
+
+        .dev-list {
+            list-style: none;
+            padding: 0 0 0 2rem;
+        }
     };
 
     .hover {

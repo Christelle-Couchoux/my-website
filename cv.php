@@ -70,25 +70,15 @@
 
                         <h1>
                             <span class="h1-name">Christelle COUCHOUX</span>
-                            <span class="job-title">Développeuse Web Full-Stack</span>
+                            <span class="job-title">Développeuse Web <br>Cheffe de projet</span>
                         </h1>
                         <div>
                             <div class="category">
-                                <h2 class="category__title">Profil</h2>
+                                <h2 class="category__title">Technologies de&nbsp;développement&nbsp;web</h2>
                                 <div class="divider"></div>
                                 <p class="category__content">
-                                    Ancienne associée de recherche en Biologie Évolutive et Écologie Comportementale, 
-                                    reconvertie dans le développement web.<br>
-                                    <strong>À la recherche d’un poste de développeuse web junior.</strong>
-                                </p>
-                            </div>
-
-                            <div class="category">
-                                <h2 class="category__title">Langues</h2>
-                                <div class="divider"></div>
-                                <p class="category__content">
-                                    <strong>Anglais</strong> (bilingue)<br>
-                                    Espagnol (A2)<br>
+                                HTML&nbsp;5, CSS&nbsp;3, SCSS, Javascript&nbsp;E6, ReactJS, Redux, VueJS, Python, 
+                                PHP&nbsp;7&nbsp;&&nbsp;8, Symfony&nbsp;5,&nbsp;6&nbsp;&&nbsp;7, Docker, MySQL, Git, GitHub, GitLab
                                 </p>
                             </div>
 
@@ -98,16 +88,22 @@
                                 <p class="category__content">
                                     Résolution de problèmes<br>
                                     Logique<br>
-                                    Rigueur<br>
-                                    Souci du détail<br>
-                                    Travail en équipe<br>
-                                    Autonomie<br>
-                                    Organisation<br>
                                     Curiosité<br>
+                                    Rigueur<br>
+                                    Organisation<br>
+                                    Autonomie<br>
                                     Capacité d’adaptation<br>
-                                    Prise d’initiative<br>
-                                    Prise de décision<br>
-                                    Persévérance <br>
+                                    Travail en équipe<br>
+                                    Force de proposition<br>
+                                </p>
+                            </div>
+
+                            <div class="category">
+                                <h2 class="category__title">Langues</h2>
+                                <div class="divider"></div>
+                                <p class="category__content">
+                                    <strong>Anglais</strong> (bilingue)<br>
+                                    Espagnol (A2)<br>
                                 </p>
                             </div>
 
@@ -125,21 +121,23 @@
                                 <h2 class="category__title">Contact</h2>
                                 <div class="divider"></div>
                                 <div class="category__content">
-                                    <div class="category__contact">
-                                        <p class="category__contact__icon">
-                                            <i class="fas fa-mobile-alt" aria-label="Téléphone" role="img"></i>
-                                        </p>
-                                        <p class="category__contact__link">
-                                            06 86 95 84 59
-                                        </p>
-                                    </div>
-                                    <a href="mailto:contact[at]christelle-couchoux.com">
+                                    <a href=tel:"+33686958459">
+                                        <div class="category__contact hover">
+                                            <p class="category__contact__icon">
+                                                <i class="fas fa-mobile-alt" aria-label="Téléphone" role="img"></i>
+                                            </p>
+                                            <p class="category__contact__link">
+                                                06 86 95 84 59
+                                            </p>
+                                        </div>
+                                    </a>
+                                    <a href="mailto:christelle.couchoux[at]gmail.com">
                                         <span class="category__contact hover">
                                             <span class="category__contact__icon">
                                                 <i class="far fa-envelope" aria-label="Email" role="img"></i>
                                             </span>
                                             <span class="category__contact__link">
-                                                contact[at]christelle-couchoux.com
+                                                christelle.couchoux[at]gmail.com
                                             </span>
                                         </span>
                                     </a>
@@ -153,7 +151,7 @@
                                             </span>
                                         </span>
                                     </a>
-                                    <a href="https://github.com/Christelle-Couchoux">
+                                    <!-- <a href="https://github.com/Christelle-Couchoux">
                                         <span class="category__contact hover">
                                             <span class="category__contact__icon">
                                                 <i class="fab fa-github" aria-label="GitHub" role="img"></i>
@@ -162,7 +160,7 @@
                                                 Christelle-Couchoux
                                             </span>
                                         </span>
-                                    </a>
+                                    </a> -->
                                     <a href="https://www.linkedin.com/in/christelle-couchoux/">
                                         <span class="category__contact hover">
                                             <span class="category__contact__icon">
@@ -182,15 +180,33 @@
                     <div id="right">
 
                         <div class="category">
+                            <h2 class="category__title">Profil</h2>
+                            <div class="divider"></div>
+                            <div class="category__content">
+                                Après 10 ans dans le monde académique et la recherche en biologie évolutive et écologie comportementale, 
+                                je me suis reconvertie dans le développement web en 2021.<br>
+                                <strong>Aujourd’hui, forte de 3 ans d’expérience en entreprise, je suis à la recherche d’un poste de développeuse web / cheffe de projet.</strong>
+                            </div>
+                        </div>
+
+                        <div class="category">
                             <h2 class="category__title">Formation</h2>
                             <div class="divider"></div>
                             <div class="category__content">
                                 <div class="category__item">
                                     <p class="category__item__year">
+                                        2024
+                                    </p>
+                                    <p class="category__item__description">
+                                        <strong>Formation Formatrice AFEST</strong>. Dawan.
+                                    </p>
+                                </div>
+                                <div class="category__item">
+                                    <p class="category__item__year">
                                         2021
                                     </p>
                                     <p class="category__item__description">
-                                        <strong>Formation Développeur Web</strong>. OpenClassrooms.
+                                        <strong>Diplôme de Développeuse Web (niveau Bac +2)</strong>. OpenClassrooms.
                                     </p>
                                 </div>
                                 <div class="category__item">
@@ -200,24 +216,6 @@
                                     <p class="category__item__description">
                                         <strong>Doctorat en Biologie et Sciences de l’Environnement</strong>, spécialité Écologie 
                                         et Biologie. Université d’Helsinki, Finlande. Thèse&nbsp;: <em>Parasitoid foraging behaviour in a competitive environment.</em>
-                                    </p>
-                                </div>
-                                <div class="category__item">
-                                    <p class="category__item__year">
-                                        2006-2008
-                                    </p>
-                                    <p class="category__item__description">
-                                        <strong>Master en Écologie et Biologie Évolutive</strong>, option Comportement Animal. 
-                                        Université de Bourgogne, Dijon.
-                                    </p>
-                                </div>
-                                <div class="category__item">
-                                    <p class="category__item__year">
-                                        2000-2003
-                                    </p>
-                                    <p class="category__item__description">
-                                        <strong>Licence en Biologie, Géologie, Sciences de la Terre et l’Univers.</strong> 
-                                        Université de Bourgogne, Dijon.
                                     </p>
                                 </div>
                             </div>
@@ -233,36 +231,34 @@
                                     </h3>
                                     <div class="category__item">
                                         <p class="category__item__year">
-                                            2021-
+                                            2023-2024
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Développeuse Web junior</strong>. Dans le cadre de ma formation avec OpenClassrooms, 
-                                            j’ai réalisé plusieurs projets dont :
+                                            <strong>Développeuse web / Cheffe de projet</strong>. ID'EES Numérique. CDI, statut cadre
                                         </p>
-                                        <ul class ="projects-list">
-                                            <li><strong>Intégrer</strong> une maquette</li>
-                                            <li><strong>Animer</strong> un site web</li>
-                                            <li>Optimiser l’<strong>accessibilité</strong> d’un site web</li>
-                                            <li>Optimiser le <strong>SEO</strong> d’un site web</li>
-                                            <li>Créer et gérer une <strong>base de données</strong></li>
-                                            <li>Construire un <strong>site e-commerce</strong></li>
-                                            <li>Créer un <strong>plan de tests</strong></li>
-                                            <li>Construire une <strong>API sécurisée</strong></li>
-                                            <li>Créer un <strong>réseau social d’entreprise</strong></li>
-                                        </ul>
                                     </div>
-                                </div>
-
-                                <div class="subcategory">
-                                    <h3 class="subcategory__title">
-                                        Édition et correction d'épreuves
-                                    </h3>
                                     <div class="category__item">
                                         <p class="category__item__year">
-                                            2017-
+                                            2023
                                         </p>
                                         <p class="category__item__description">
-                                            <strong>Romans en anglais</strong> (30+) : Livres de D.&nbsp;Bussell, M.&nbsp;Stott, I.&nbsp;Moore...
+                                            <strong>Développeuse web</strong>. ID'EES Numérique. CDD 6 mois
+                                        </p>
+                                    </div>
+                                    <div class="category__item">
+                                        <p class="category__item__year">
+                                            2022-2023
+                                        </p>
+                                        <p class="category__item__description">
+                                            <strong>Développeuse web junio</strong>. Débutant-e Accepté-e. CDD 1 an
+                                        </p>
+                                    </div>
+                                    <div class="category__item">
+                                        <p class="category__item__year">
+                                            2021
+                                        </p>
+                                        <p class="category__item__description">
+                                            <strong>Développeuse web junior</strong>. Formation diplômante
                                         </p>
                                     </div>
                                 </div>
@@ -308,38 +304,22 @@
                                     <h3 class="subcategory__title">
                                         Développement web
                                     </h3>
+                                    <div class="subcategory__description">
+                                        <strong>Développement</strong>
+                                        <ul class="dev-list">
+                                            <li>Réseau social d'entreprise en VueJS (projet de fin de formation)</li>
+                                            <li>Applications avec API en PHP, Symfony & ReactJS</li>
+                                            <li>Applications avec API en PHP, Symfony & Twig</li>
+                                            <li>Application de cartographie en VueJS & NuxtJS</li>
+                                            <li>Sites Wordpress avec Timber</li>
+                                            <li>Plugin MVC Wordpress</li>
+                                        </ul>
+                                    </div>
                                     <p class="subcategory__description">
-                                        <strong>Front : </strong>
-                                        HTML - CSS - Sass - JavaScript - Bootstrap - Vue.js
+                                        <strong>Intégration</strong> de landings à partir de maquettes Figma & AdobeXD
                                     </p>
                                     <p class="subcategory__description">
-                                        <strong>Back : </strong>
-                                        Node.js - Express - MongoDB - MySQL - Sequelize - PHP
-                                    </p>
-                                    <p class="subcategory__description">
-                                        <strong>Outils : </strong>
-                                        Git/GitHUb - VS Code
-                                    </p>
-                                </div>
-
-                                <div class="subcategory">
-                                    <h3 class="subcategory__title">
-                                        Communication
-                                    </h3>
-                                    <p class="subcategory__description">
-                                        <strong>Organiser</strong> et <strong>communiquer</strong> (oral et écrit) des idées complexes 
-                                        en utilisant des formats adaptés aux publics ciblés. 
-                                        <strong>Rédiger</strong> des rapports et comptes rendus. <strong>Publier</strong> des articles scientifiques.
-                                    </p>
-                                </div>
-
-                                <div class="subcategory">
-                                    <h3 class="subcategory__title">
-                                        Édition
-                                    </h3>
-                                    <p class="subcategory__description">
-                                        <strong>Réviser</strong> des articles scientifiques pour des journaux à évaluation 
-                                        par les pairs. <strong>Éditer</strong> et <strong>corriger</strong> des épreuves de romans.
+                                        <strong>Design</strong> de maquettes Figma
                                     </p>
                                 </div>
 
@@ -348,10 +328,13 @@
                                         Gestion de projet
                                     </h3>
                                     <p class="subcategory__description">
-                                        <strong>Superviser</strong> et <strong>encadrer</strong> des projets de recherche. 
-                                        <strong>Planifier</strong> des projets et respecter les délais. 
-                                        <strong>Interviewer</strong>, <strong>embaucher</strong> et <strong>gérer</strong> des étudiants et assistants. 
-                                        Définir et gérer un <strong>budget</strong>.
+                                        Organisation du <strong>travail en équipe</strong><br> 
+                                        Utilisation des méthodologies de travail <strong>Agile Scrum et Kanban</strong><br> 
+                                        Définition des <strong>besoins clients</strong><br> 
+                                        Rédaction de <strong>spécifications fonctionnelles</strong><br> 
+                                        Rédaction de <strong>cahiers des charges</strong><br> 
+                                        <strong>Animation d'ateliers</strong> clients / grand public<br> 
+                                        <strong>Encadrement</strong> et accompagnement à la montée en compétence de stagiaires et développeurs juniors
                                     </p>
                                 </div>
                             </div>
