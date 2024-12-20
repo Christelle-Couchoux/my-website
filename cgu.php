@@ -35,7 +35,7 @@
                 <header class="page-header">
                     <?php include_once('./includes/logo-fr.php'); ?>
 
-                    <div class="language">
+                    <!-- <div class="language">
                         <div class="language__choice">
                             <p class="language__active" title="Français">
                                 FR
@@ -46,7 +46,7 @@
                                 EN
                             </p>
                         </div>
-                    </div>
+                    </div> -->
 
                     <?php include_once('./includes/nav-pages-fr.php'); ?>       
                 </header>
