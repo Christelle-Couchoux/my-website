@@ -127,40 +127,38 @@
                         <p>
                             Bonjour ! Je m'appelle <span class="highlights">Christelle</span> et je réside en Bourgogne. 
                             Après avoir passé plus de 10 ans dans le domaine de la recherche scientifique, 
-                            je me suis reconvertie et suis devenue <span class="highlights">développeuse web full-stack</span>.
+                            je me suis reconvertie et ai obtenu un diplôme de <span class="highlights">'Développeuse Web'</span> (niveau Bac+2).
                         </p>
                         <p>
                             Je suis <span class="highlights">curieuse</span> et j'adore découvrir de nouvelles choses. 
                             Mes capacités d'adaptation et de compréhension me permettent <span class="highlights">d'apprendre très vite.</span> 
                             Et, grâce à ma logique, ma rigueur et ma carrière en tant que chercheuse, j'ai de grandes aptitudes pour <span class="highlights">la résolution de problèmes</span>.
                         </p>
-                        <p>
-                            Après une formation de 6 mois, j'ai obtenu un <span class="highlights">diplôme de 'Développeur Web'</span> (niveau Bac+2).
-                        </p>
                         <p class="looking-for-job">
-                            Je suis actuellement disponible et à la recherche d'un poste de développeuse web junior.
+                            Forte de 3 ans d'expérience en entreprise en tant que développeuse web full-stack (+ cheffe de projet la dernière année),
+                            <!-- <span class="new-job">je suis actuellement disponible et à la recherche d'un nouveau poste.</span> -->
+                            <span class="new-job">je suis actuellement disponible et à la recherche d'un nouveau poste</span>.
                         </p>
                         <p>
                             Voici une liste de <span class="highlights">technologies</span> avec lesquelles j'ai travaillé&nbsp;:
                         </p>
                         <div class="technologies">
                             <ul class="technologies__list">
-                                <li class="technologies__list__title">Front</li>
                                 <li>HTML</li>
                                 <li>CSS</li>
-                                <li>Sass</li>
-                                <li>JavaScript</li>
-                                <li>Bootstrap</li>
-                                <li>Vue.js</li>
+                                <li>SCSS</li>
+                                <li>Javascript</li>
+                                <li>React / Redux</li>
+                                <li>Vue</li>
+                                <li>Python</li>
                             </ul>
                             <ul class="technologies__list">
-                                <li class="technologies__list__title">Back</li>
-                                <li>Node.js</li>
-                                <li>Express</li>
-                                <li>MongoDB</li>
-                                <li>MySQL</li>
-                                <li>Sequelize</li>
                                 <li>PHP</li>
+                                <li>Symfony</li>
+                                <li>MySQL</li>
+                                <li>Docker</li>
+                                <li>Composer</li>
+                                <li>Git / GitHub / GitLab</li>
                             </ul>
                         </div>
                         <p>

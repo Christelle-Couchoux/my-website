@@ -18,7 +18,6 @@
     };
 
     .looking-for-job {
-        color: $color-tertiary;
         padding: 10px 0 10px 0; // +20
 
         @include sm {
@@ -28,6 +27,11 @@
         @include md {
             padding: 20px 0 20px 0; // +35
         };
+
+        .new-job {
+            display: inline;
+            color: $color-tertiary;
+        }
     };
 
     .technologies {
