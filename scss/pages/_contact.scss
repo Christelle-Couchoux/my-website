@@ -36,6 +36,10 @@
             @include size(100%, 200px);
         };
 
+        .hidden {
+            display: none;
+        }
+
         #submit {
             @include size(100%, 40px);
             font-family: $lato;

@@ -748,6 +748,7 @@
                         <input placeholder="Nom" type="text" name="name" required class="contact-form__field">
                         <input placeholder="Email" type="text" name="email" required class="contact-form__field">
                         <textarea placeholder="Message" name="message" required class="contact-form__field"></textarea>
+                        <textarea placeholder="Title" name="title" class="contact-form__field hidden"></textarea>
                         <button id="submit">Envoyer</button>
                     </form>
 
