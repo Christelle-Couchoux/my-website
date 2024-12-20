@@ -7,16 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="robots" content="index, follow">
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD1BZFV4Q7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'G-MD1BZFV4Q7');
-    </script>
-
     <title>CGU - Christelle Couchoux</title>
     <meta name="title" content="CGU - Christelle Couchoux">
     <meta name="description" content="Conditions générales d'utilisation pour le site www.christelle-couchoux.com">
