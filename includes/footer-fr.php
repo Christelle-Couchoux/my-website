@@ -27,7 +27,7 @@
     </nav>
 
     <p id="legal">
-        <span class="copyright">&copy; 2021 Christelle Couchoux</span>
+        <span class="copyright">&copy; <?php echo date("Y"); ?> Christelle Couchoux</span>
         <a href="./mentions-legales.php"><span class="legal-link">Mentions légales</span></a>
         <a href="./cgu.php"><span class="legal-link">CGU</span></a>
     </p>
