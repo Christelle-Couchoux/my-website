@@ -63,6 +63,7 @@ const seeMoreProjects = document.getElementById('see-more-projects');
 const seeFewerProjects = document.getElementById('see-fewer-projects');
 const extraProjects = document.getElementById('more-projects');
 const firstExtraProject = document.getElementById('first-extra-project');
+const secondExtraProject = document.getElementById('second-extra-project');
 
 
 function initProjects() {
@@ -100,6 +101,11 @@ function toggleMoreProjects() {
         extraProjects.classList.toggle('hidden-more-projects');
         firstExtraProject.classList.add('fade-in-project');
         firstExtraProject.classList.remove('hidden-js');
+
+        if(window.innerWidth >= 1440 ) {
+            secondExtraProject.classList.add('fade-in-project');
+            secondExtraProject.classList.remove('hidden-js');
+        }
     })
 
     seeFewerProjects.addEventListener('click', function() {

@@ -392,10 +392,10 @@
                             <p id="see-more-projects">Voir plus de projets</p>
                             <p id="see-fewer-projects" class="hidden-more-projects">Voir moins de projets</p>
 
-                            <div id="more-projects" class="hidden-more-projects">
+                            <div id="more-projects" class="hidden-more-projects all-projects">
 
                                 <!-- Oricamera -->
-                                <div id ="first-extra-project" class="one-project enter-left hidden-project">
+                                <div id="first-extra-project" class="one-project enter-left hidden-project">
                                     <h3>Développement frontend d'un site e-commerce</h3>
 
                                     <div class="one-project__title-links">
@@ -483,7 +483,7 @@
                                 </div>
 
                                 <!-- La Chouette Agence -->
-                                <div class="one-project enter-right hidden-project">
+                                <div id="second-extra-project" class="one-project enter-right hidden-project">
                                     <h3>Optimisation du SEO d'un site</h3>
 
                                     <div class="one-project__title-links">
